@@ -1,5 +1,7 @@
 import React from "react";
 
+import '../styles/cards/card.scss';
+
 interface CardData
 {
     title: string;
@@ -40,7 +42,7 @@ const Card: React.FC<CardProps> = ({ index }) =>
     }, [index]);
 
     return (
-        <div>
+        <div className="description">
           <h2>{cardData?.title}</h2>
           <p>{cardData?.description}</p>
         </div>

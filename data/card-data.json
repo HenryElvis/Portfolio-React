@@ -1,23 +1,44 @@
 {
-    "card": 
+    "LFT": 
     [
       {
-        "title": "The title of the card",
-        "description": "The description of the card"
+        "title": "LFT - Lycée Français de Tananarive",
+        "description": "Ancien étudiant du Lycée Français de Tananarive. J'ai suivi la série ES avec spécialité mathématiques. Ce lycée renommé m'a offert une éducation de qualité, avec des professeurs passionnés et compétents. Grâce à mes études en série ES, j'ai développé mes compétences en mathématiques ainsi qu'une solide compréhension des sciences économiques et de la sociologie. J'ai également eu l'opportunité de participer à des projets sociaux et culturels qui ont renforcé ma créativité et mon sens des responsabilités."
       }
     ],
-    "card-2":
+    "SAE":
     [
       {
-        "title": "Second title of the card",
-        "description": "Second description of the card"
+        "title": "SAE - Game Programming",
+        "description": "À SAE, j'ai appris les fondamentaux de la programmation de jeux, y compris les langages de programmation, les moteurs de jeux et les techniques de conception. J'ai eu l'occasion de travailler sur des projets pratiques et de collaborer avec des étudiants passionnés de divers horizons. Le bachelor en Game Programming à SAE a été une expérience stimulante et enrichissante, me préparant à une carrière dans l'industrie du jeu vidéo. Je suis impatient d'appliquer mes compétences et ma passion pour créer des expériences ludiques captivantes."
       }
     ],
-    "card-3":
+    "IIM":
     [
       {
-        "title": "Third title of the card",
-        "description": "Third description of the card"
+        "title": "IIM - Game Programming",
+        "description": "J'ai eu l'opportunité de suivre un mastère en Game Programming à l'IIM, à l'Institut Léonard de Vinci. Cette formation spécialisée m'a permis de développer mes compétences avancées dans le domaine de la programmation de jeux vidéo. À l'IIM, j'ai approfondi mes connaissances en matière de programmation de jeux, en me concentrant sur des sujets tels que l'intelligence artificielle, les moteurs de jeux avancés, les systèmes de physique complexes et la réalité virtuelle. J'ai travaillé sur des projets ambitieux en collaboration avec des étudiants passionnés."
+      }
+    ],
+    "Parkours":
+    [
+      {
+        "title": "Parkours",
+        "description": "J'ai eu l'opportunité d'exercer en tant que tuteur scolaire chez Parkours, une entreprise dédiée à l'accompagnement des collégiens et lycéens dans leur parcours académique. En tant que tuteur scolaire, j'ai eu le privilège d'aider de nombreux étudiants à surmonter leurs difficultés et à atteindre leurs objectifs scolaires. J'ai travaillé avec des collégiens et des lycéens de différentes matières, en leur fournissant un soutien individualisé et des conseils adaptés à leurs besoins spécifiques."
+      }
+    ],
+    "Malt":
+    [
+      {
+        "title": "Malt - Freelance",
+        "description": "Pendant mon emploi étudiant, j'ai travaillé sur des projets de conception et de développement, en respectant les exigences spécifiques de chaque client. En tant que développeur web freelance, j'ai développé une approche flexible et créative pour répondre aux demandes des clients et fournir des solutions web de haute qualité. Je suis passionné par l'innovation et l'amélioration continue, et je suis toujours à l'affût des dernières tendances et technologies en matière de développement web."
+      }
+    ],
+    "TKA":
+    [
+      {
+        "title": "TKA - Tech Kids Academy",
+        "description": "Chez Tech Kids Academy, j'ai partagé mes connaissances et guidé les jeunes esprits vers le monde passionnant de la technologie. En tant qu'animateur chez Tech Kids Academy, j'ai eu l'opportunité de transmettre ma passion pour la programmation à une nouvelle génération de créateurs numériques. J'ai développé des programmes pédagogiques stimulants qui encouragent la créativité, la résolution de problèmes et la collaboration chez les enfants. J'ai guidé les élèves à travers des projets pratiques, où ils ont pu concevoir leurs propres jeux"
       }
     ]
   }

@@ -1,0 +1,39 @@
+@import "/src/styles/const.scss";
+
+#card
+{
+    article
+    {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 3em;
+    
+        div
+        {
+            border: #FFFFFF 1px solid;
+            border-radius: 1em;
+            box-shadow: #776F87 4px 5px;
+            padding: 1em;
+            width: 16rem;
+            height: 23rem;
+    
+            p
+            {
+                color: $text_color;
+            }
+        }
+    }
+    
+    h2
+    {
+        color: $text_color;
+        font-size: 1.2em;
+        text-align: center;
+    }
+}
+
+.card-top-gap
+{
+    padding-top: 4em;
+}
