@@ -1,13 +1,14 @@
 #title {
   font-family: pac0;
   text-align: center;
-  width: 70em;
+  width: 60em;
   margin: 0 auto;
 }
 #title h1 {
   color: #FFFFFF;
   font-size: 6em;
   text-shadow: #776F87 4px 5px;
+  animation: scale 3s infinite;
   padding-top: 1em;
 }
 #title p {
