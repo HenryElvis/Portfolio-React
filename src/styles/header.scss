@@ -1,0 +1,57 @@
+@import 'const';
+
+#title
+{   
+    font-family: pac0;
+    text-align: center;
+
+    width: 70em;
+    margin: 0 auto;
+
+    h1
+    {
+        color: $text_color;
+        font-size: 6em;
+        text-shadow: #776F87 4px 5px;
+        // animation: scale 3s infinite;
+
+        padding-top: 1em;
+    }
+
+    p
+    {
+        color: $pacman;
+        font-size: 4em;
+        letter-spacing: 0.3em;
+    }
+
+    i
+    {
+        color: $pacman;
+        font-size: 2em;
+        text-align: end;
+    }
+
+    button
+    {
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin: 1em;
+        padding: 0.5em;
+        border: none;
+        border-radius: 0.5em;
+        background-color: rgba(0, 0, 0, 0.3);
+        color: $text_color;
+        font-size: 1em;
+        cursor: pointer;
+        outline: none;
+    }
+
+    @keyframes scale
+    {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.2); }
+        100% { transform: scale(1); }
+    }
+}
