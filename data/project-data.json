@@ -3,7 +3,27 @@
     [
         {
             "title": "chien",
-            "imagePath": "./public/images/1.jpg",
+            "imagePath": "/images/1.jpg",
+            "content": "voici un chien",
+            "alt": "chien",
+            "warningContent": true
+        }
+    ],
+    "2":
+    [
+        {
+            "title": "chien",
+            "imagePath": "/images/1.jpg",
+            "content": "voici un chien",
+            "alt": "chien",
+            "warningContent": false
+        }
+    ],
+    "3":
+    [
+        {
+            "title": "chien",
+            "imagePath": "/images/1.jpg",
             "content": "voici un chien",
             "alt": "chien",
             "warningContent": false

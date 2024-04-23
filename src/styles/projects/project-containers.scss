@@ -1,0 +1,81 @@
+@import "../const";
+
+.project
+{
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
+    grid-gap: 2em;
+    margin-top: 6em;
+
+    justify-items: center;
+    align-items: center;
+
+    .content-warning
+    {
+        filter: blur(0.5rem);
+    }
+
+    div
+    {
+        width: 20rem;
+
+        text-align: center;
+
+        img
+        {
+            display: inline-block;
+        }
+
+        p
+        {
+            color: $text_color;
+            text-align: start;
+        }
+
+        .project-image
+        {
+            border: 5px yellow solid;
+            padding: 0 1em 0 1em;
+
+            object-fit: cover;
+            border-radius: 1em;
+        
+            width: 20em;
+            height: 15em;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img
+            {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                border-radius: 1em;
+            }
+        }
+
+        .project-content
+        {
+            border: 5px red solid;
+            padding: 0 1em 0 1em;
+            border-radius: 1em;
+            height: 15em;
+
+            color: $text_color;
+
+            h2
+            {
+                text-align: start;
+            }
+
+            // p
+            // {
+
+            // }
+        }
+    }
+}

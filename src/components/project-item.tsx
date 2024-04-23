@@ -18,6 +18,8 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ index }) =>
 {
     const [itemData, setItemData] = React.useState<ProjectData | null>(null);
 
+    const isWarningContent = itemData?.warningContent;
+
     React.useEffect(() =>
     {
         fetch("../data/project-data.json")
@@ -43,16 +45,20 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ index }) =>
 
     }, [index]);
 
-    return(
-        <div className={itemData?.warningContent ? 'content-warning' : ''}>
-            <div>
-                <img src={itemData?.imagePath} alt={itemData?.alt} />
+    return (
+        <div className={isWarningContent ? "content-warning" : ""}>
+            <div className="project-image">
+                <a href="">
+                    <img src={itemData?.imagePath} alt={itemData?.alt} />
+                </a>
             </div>
-            <div>
-                <h2>{itemData?.title}</h2>
-            </div>
-            <div>
-                <p>{itemData?.content}</p>
+            <div className="project-content">
+                <div>
+                    <h2>{itemData?.title}</h2>
+                </div>
+                <div>
+                    <p>{itemData?.content}</p>
+                </div>
             </div>
         </div>
     );
