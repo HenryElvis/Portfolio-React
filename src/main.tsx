@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 
 import Header from './components/header'
 import CardContainers from './components/card-containers'
+import ProjectItem from './components/project-item'
 import Footer from './components/footer'
 
 ReactDOM.createRoot(document.getElementById('header')!).render(
@@ -15,6 +16,12 @@ ReactDOM.createRoot(document.getElementById('card')!).render(
   <React.StrictMode>
     <CardContainers />
   </React.StrictMode>,
+)
+
+ReactDOM.createRoot(document.getElementById('project')!).render(
+    <React.StrictMode>
+      <ProjectItem index={1}/>
+    </React.StrictMode>
 )
 
 ReactDOM.createRoot(document.getElementById('footer')!).render(

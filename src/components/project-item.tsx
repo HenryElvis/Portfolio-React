@@ -5,6 +5,7 @@ interface ProjectData
     title: string;
     imagePath: string;
     content: string;
+    alt: string;
     warningContent: boolean;
 }
 
@@ -45,7 +46,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ index }) =>
     return(
         <div className={itemData?.warningContent ? 'content-warning' : ''}>
             <div>
-                <img src={itemData?.imagePath} alt="project" />
+                <img src={itemData?.imagePath} alt={itemData?.alt} />
             </div>
             <div>
                 <h2>{itemData?.title}</h2>

@@ -2,10 +2,10 @@
     "1":
     [
         {
-            "title": "title",
-            "image-path": "image.jpg",
-            "content": "content",
-            "alt": "alt",
+            "title": "chien",
+            "imagePath": "./public/images/1.jpg",
+            "content": "voici un chien",
+            "alt": "chien",
             "warningContent": false
         }
     ]
