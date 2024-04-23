@@ -1,5 +1,6 @@
 import { useRef, useEffect, RefObject } from 'react';
 
+import Cmd from './cmd';
 import '../styles/header/header.scss';
 
 const Header = () =>
@@ -35,9 +36,7 @@ const Header = () =>
             <h1 ref={titleRef as RefObject<HTMLHeadingElement>} translate="no">P1RTF1L!1</h1>
             <p>12222222222</p>
 
-            <button id="cmd-toggle-btn">
-                <i className="fa-solid fa-terminal fa-bounce"></i>
-            </button>
+            <Cmd />
         </section>
     );
 }

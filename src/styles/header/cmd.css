@@ -1,0 +1,14 @@
+.cmd-toggle-btn {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 1em;
+  padding: 0.5em;
+  border: none;
+  border-radius: 0.5em;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #FFFFFF;
+  font-size: 1em;
+  cursor: pointer;
+  outline: none;
+}/*# sourceMappingURL=cmd.css.map */
