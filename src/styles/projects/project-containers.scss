@@ -7,7 +7,7 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     
     grid-gap: 2em;
-    margin-top: 6em;
+    margin: 6em 1em 0 1em;
 
     justify-items: center;
     align-items: center;
@@ -36,7 +36,6 @@
 
         .project-image
         {
-            border: 5px yellow solid;
             padding: 0 1em 0 1em;
 
             object-fit: cover;
@@ -49,18 +48,19 @@
             justify-content: center;
             align-items: center;
 
-            img
+            a
             {
-                width: 100%;
-                height: auto;
-                object-fit: cover;
-                border-radius: 1em;
+                img
+                {
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 1em;
+                }
             }
         }
 
         .project-content
         {
-            border: 5px red solid;
             padding: 0 1em 0 1em;
             border-radius: 1em;
             height: 17em;
