@@ -48,7 +48,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ index }) =>
     return (
         <div className={isWarningContent ? "content-warning" : ""}>
             <div className="project-image">
-                <a href="">
+                <a href="/project">
                     <img src={itemData?.imagePath} alt={itemData?.alt} />
                 </a>
             </div>
