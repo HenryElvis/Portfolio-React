@@ -1,7 +1,9 @@
-// import { useState } from 'react'
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import './App.css'
 import './scripts/Router';
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Home from './pages/home';
+import Project from './pages/project';
+import ErrorPage from './pages/error';
 
 function App() {
 
@@ -15,14 +17,11 @@ export default App
 const router = createBrowserRouter([
     {
         path: "/",
-        // element: <div>Acceuil</div>
+        element: <Home />,
+        errorElement: <ErrorPage />
     },
     {
-        path: "/about",
-        // element: <div>About</div>
-    },
-    {
-        path: "/contact",
-        // element: <div>Contact</div>
+        path: "/project",
+        element: <Project />
     }
 ]);
