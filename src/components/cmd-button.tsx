@@ -30,6 +30,13 @@ const CmdButton = () => {
         const button = document.querySelector('.cmd-toggle-btn');
         button?.addEventListener('click', HandleButton);
 
+        const cmd = document.getElementById('terminal');
+
+        if (cmdHide)
+            cmd?.classList.add('hidden');
+        else
+            cmd?.classList.remove('hidden');
+        
         return () => {
             button?.removeEventListener('click', HandleButton);
         };
