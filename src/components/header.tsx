@@ -1,7 +1,8 @@
 import { useRef, useEffect, RefObject } from 'react';
 
-import Cmd from './cmd-button';
 import '../styles/header/header.scss';
+import CmdButton from './cmd-button';
+import Cmd from './cmd';
 
 const Header = () =>
 {
@@ -32,12 +33,15 @@ const Header = () =>
     }, []);
 
     return (
-        <section id="title">
-            <h1 ref={titleRef as RefObject<HTMLHeadingElement>} translate="no">P1RTF1L!1</h1>
-            <p>12222222222</p>
-
+        <div>
+            <section id="title">
+                <h1 ref={titleRef as RefObject<HTMLHeadingElement>} translate="no">P1RTF1L!1</h1>
+                <p>12222222222</p>
+            </section>
+            
+            <CmdButton />
             <Cmd />
-        </section>
+        </div>
     );
 }
 

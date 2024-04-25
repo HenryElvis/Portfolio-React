@@ -1,4 +1,4 @@
-@import '../const';
+@import '../const.scss';
 
 .cmd-toggle-btn
 {
@@ -10,8 +10,8 @@
     border: none;
     border-radius: 0.5em;
     background-color: rgba(0, 0, 0, 0.3);
-    // color: $text_color;
-    font-size: 1em;
+    color: $pacman;
+    font-size: 2em;
     cursor: pointer;
     outline: none;
 }
