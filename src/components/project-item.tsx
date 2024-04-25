@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 interface ProjectData
 {
@@ -16,13 +16,13 @@ interface ProjectItemProps
 
 const ProjectItem: React.FC<ProjectItemProps> = ({ index }) =>
 {
-    const [itemData, setItemData] = React.useState<ProjectData | null>(null);
+    const [itemData, setItemData] = useState<ProjectData | null>(null);
 
     const isWarningContent = itemData?.warningContent;
 
-    React.useEffect(() =>
+    useEffect(() =>
     {
-        fetch("../data/project-data.json")
+        fetch("/data/project-data.json")
         .then((response) =>
         {
             if (!response.ok)

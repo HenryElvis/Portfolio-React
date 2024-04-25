@@ -19,7 +19,7 @@ const Card: React.FC<CardProps> = ({ index }) =>
 
     React.useEffect(() =>
     {
-        fetch("../data/card-data.json")
+        fetch("/public/data/card-data.json")
         .then((response) => 
         {
             if (!response.ok)
