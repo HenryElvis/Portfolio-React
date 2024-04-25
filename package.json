@@ -2,7 +2,7 @@
   "name": "portfolio-vite",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://HenryElvis.github.io/Test-Vite-React",
+  "homepage": "https://HenryElvis.github.io/Test-Vite-React/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
