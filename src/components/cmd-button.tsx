@@ -15,16 +15,7 @@ const CmdButton = () => {
 
             setTimeout(() => {
                 setClicked(false);
-            }, 200);
-
-            if (cmdHide)
-            {
-                console.log("cmd show");
-            }
-            else
-            {
-                console.log("cmd hide");
-            }
+            }, 1000);
         };
 
         const button = document.querySelector('.cmd-toggle-btn');
@@ -35,8 +26,11 @@ const CmdButton = () => {
         if (cmdHide)
             cmd?.classList.add('hidden');
         else
+        {
             cmd?.classList.remove('hidden');
-        
+            cmd?.scrollIntoView({ behavior: "smooth" });
+        }
+
         return () => {
             button?.removeEventListener('click', HandleButton);
         };
