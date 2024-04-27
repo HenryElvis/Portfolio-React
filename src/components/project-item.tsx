@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Route } from "react-router-dom";
 
 interface ProjectData
 {
@@ -48,9 +49,11 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ index }) =>
     return (
         <div className={isWarningContent ? "content-warning" : ""}>
             <div className="project-image">
-                <a href={isWarningContent ? "/" : "/project"}>
+                < Route path="/project" />
                     <img src={itemData?.imagePath} alt={itemData?.alt} />
-                </a>
+                < Route />
+                {/* <a href={isWarningContent ? "/" : "/project"}>
+                </a> */}
             </div>
             <div className="project-content">
                 <div>
