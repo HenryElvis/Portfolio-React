@@ -5,7 +5,6 @@ import Home from './pages/home';
 import Project from './pages/project';
 import ErrorPage from './pages/error';
 
-
 function App() {
   const router = createBrowserRouter([
         {
@@ -20,44 +19,9 @@ function App() {
     }
   ]);
   
-
   return (
     <RouterProvider router={router} />
   )
 }
 
-export default App
-
-// const router = createBrowserRouter([
-//     {
-//         path: "/",
-//         element: <Home />,
-//         errorElement: <ErrorPage />
-//     },
-//     {
-//         path: "/project",
-//         element: <Project />,
-//         errorElement: <ErrorPage />
-//     }
-// ]);
-
-// function App() {
-//   const router = createBrowserRouter([
-//     {
-//         path: "/",
-//         element: <Home />,
-//         errorElement: <ErrorPage />
-//     },
-//     {
-//         path: "/project",
-//         element: <Project />,
-//         errorElement: <ErrorPage />
-//     }
-//   ]);
-
-//   return (
-//     <RouterProvider router={router} children={<div />} />
-//   );
-// }
-
-// export default App
+export default App;
