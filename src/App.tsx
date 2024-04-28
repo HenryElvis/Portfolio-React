@@ -13,7 +13,7 @@ function App() {
         errorElement: <ErrorPage />
     },
     {
-        path: "project",
+        path: "/project",
         element: <Project />,
         errorElement: <ErrorPage />
     }
