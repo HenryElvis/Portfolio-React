@@ -10,13 +10,19 @@ function App() {
         {
         path: "/",
         element: <Home />,
+        children: [
+          {
+              path: "/project",
+              element: <Project />
+          }
+        ],
         errorElement: <ErrorPage />
-    },
-    {
-        path: "/project",
-        element: <ErrorPage />,
-        errorElement: <Project />
     }
+    // {
+    //     path: "/project",
+    //     element: <ErrorPage />,
+    //     errorElement: <Project />
+    // }
   ]);
   
   return (
