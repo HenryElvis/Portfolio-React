@@ -9,11 +9,11 @@ function App() {
   const router = createBrowserRouter([
         {
         path: "/",
-        element: <Home />,
+        element: <Project />,
         errorElement: <ErrorPage />
     },
     {
-        path: "/project",
+        path: "./project",
         element: <Project />,
         errorElement: <ErrorPage />
     }
