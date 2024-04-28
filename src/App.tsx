@@ -14,8 +14,8 @@ function App() {
     },
     {
         path: "/project",
-        element: <Project />,
-        errorElement: <ErrorPage />
+        element: <ErrorPage />,
+        errorElement: <Project />
     }
   ]);
   
