@@ -2,7 +2,9 @@ function ErrorPage() {
   
   return (
     <div>
-      <h1>404 - Page Not Found // Test</h1>
+      <a href="/">
+        <h1>404 - Page Not Found // Test</h1>
+      </a>
     </div>
   );
 }
