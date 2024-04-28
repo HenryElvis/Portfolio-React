@@ -12,7 +12,7 @@ function App() {
         element: <Home />,
         children: [
           {
-              path: "/project",
+              path: "/index.html",
               element: <Project />
           }
         ],
