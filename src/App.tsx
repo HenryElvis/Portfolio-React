@@ -12,11 +12,11 @@ function App() {
         element: <Home />,
         children: [
           {
-              path: "/index.html",
-              element: <Project />
+              path: "/project",
+              element: <ErrorPage />
           }
         ],
-        errorElement: <ErrorPage />
+        errorElement: <Project />
     }
     // {
     //     path: "/project",
