@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import './App.css'
 import './scripts/Router';
-import Home from './pages/home';
+// import Home from './pages/home';
 import Project from './pages/project';
 import ErrorPage from './pages/error';
 
