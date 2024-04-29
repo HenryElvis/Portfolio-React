@@ -13,10 +13,10 @@ function App() {
         children: [
           {
               path: "/project",
-              element: <ErrorPage />
+              element: <Project />
           }
         ],
-        errorElement: <Project />
+        errorElement: <ErrorPage />
     }
   ]);
   
