@@ -18,11 +18,6 @@ function App() {
         ],
         errorElement: <Project />
     }
-    // {
-    //     path: "/project",
-    //     element: <ErrorPage />,
-    //     errorElement: <Project />
-    // }
   ]);
   
   return (
