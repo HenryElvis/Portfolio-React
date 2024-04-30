@@ -1,3 +1,4 @@
-/project/*    /index.html   200
-/project     /   301
-/*           /   404
+/*                  /index.html     200
+/project/*          /index.html     200
+/project             /              301
+/d                   /              404
