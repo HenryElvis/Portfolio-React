@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import Header from "../components/header";
+import Header from "../components/header-components/header";
 import { createRoot } from "react-dom/client";
-import CardContainers from "../components/card-containers";
-import ProjectContainers from "../components/project-containers";
-import Footer from "../components/footer";
+import CardContainers from "../components/card-components/card-containers";
+import ProjectContainers from "../components/project-components/project-containers";
+import Footer from "../components/footer-components/footer";
 
 const Home = () => {
     const [rootCreated, setRootCreated] = useState(false);

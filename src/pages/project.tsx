@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
-import Header from "../components/header";
-import Footer from "../components/footer";
+import Header from "../components/header-components/header";
+import Footer from "../components/footer-components/footer";
 
 const Project = () => {
 
