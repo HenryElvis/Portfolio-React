@@ -1,6 +1,6 @@
 import React from "react";
 
-import '../styles/cards/card.scss';
+import '/src/styles/cards/card.scss';
 
 interface CardData
 {

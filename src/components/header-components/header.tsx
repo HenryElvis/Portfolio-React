@@ -1,6 +1,6 @@
 import { useRef, useEffect, RefObject } from 'react';
 
-import '../styles/header/header.scss';
+import '/src/styles/header/header.scss';
 import CmdButton from '../cmd-components/cmd-button';
 import Cmd from '../cmd-components/cmd';
 

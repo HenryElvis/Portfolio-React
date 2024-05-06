@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import '../styles/cmd/cmd.scss';
+import '/src/styles/cmd/cmd.scss';
 
 const Cmd = () => {
     const [isCmdHide, setCmdHide] = useState(false);

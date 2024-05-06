@@ -1,6 +1,6 @@
 import ProjectItem from "./project-item"
 
-import '../styles/projects/project-containers.scss';
+import '/src/styles/projects/project-containers.scss';
 
 const ProjectContainers = () => {
     return (

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import '../styles/cmd/cmd-button.scss';
+import '/src/styles/cmd/cmd-button.scss';
 
 const CmdButton = () => {
     const [clicked, setClicked] = useState(false);
