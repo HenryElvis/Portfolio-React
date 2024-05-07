@@ -9,4 +9,8 @@
 @font-face {
   font-family: pac1;
   src: url(/src/assets/fonts/pacfont/Pacfont1.ttf);
+}
+@font-face {
+  font-family: pixel;
+  src: url(/src/assets/fonts/pixelfont/pixel.ttf);
 }/*# sourceMappingURL=fonts.css.map */
