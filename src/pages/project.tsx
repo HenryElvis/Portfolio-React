@@ -30,6 +30,7 @@ const Project = () => {
                 <div id='header'></div>
             </header>
 
+
             <footer>
                 <div id='footer'></div>
             </footer>
