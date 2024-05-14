@@ -59,8 +59,6 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ index }) =>
             setDataToFetch(itemData.dataToFetch);
             DataToFetch = itemData.dataToFetch;
         }
-
-        console.log("SetDataToFetch dataToFetch:", GetDataToFetch());
     }
 
     return (
