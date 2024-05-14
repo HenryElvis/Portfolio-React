@@ -3,6 +3,7 @@ import ProjectItem from "./project-item"
 import '/src/styles/projects/project-containers.scss';
 
 const ProjectContainers = () => {
+
     return (
         <div className="project">
             <ProjectItem index={1} />

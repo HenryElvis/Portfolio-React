@@ -15,6 +15,8 @@ interface ProjectItemProps
     index: number;
 }
 
+let DataToFetch: string = "";
+
 const ProjectItem: React.FC<ProjectItemProps> = ({ index }) =>
 {
     const [itemData, setItemData] = useState<ProjectData | null>(null);
@@ -53,17 +55,12 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ index }) =>
     function SetDataToFetch() : void
     {
         if (itemData)
+        {
             setDataToFetch(itemData.dataToFetch);
+            DataToFetch = itemData.dataToFetch;
+        }
 
         console.log("SetDataToFetch dataToFetch:", GetDataToFetch());
-    }
-
-    function GetDataToFetch() : string
-    {
-        if (!dataToFetch || dataToFetch === "")
-            return "";
-
-        return dataToFetch;
     }
 
     return (
@@ -86,3 +83,11 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ index }) =>
 }
 
 export default ProjectItem;
+
+export function GetDataToFetch() : string
+{
+    if (!DataToFetch || DataToFetch === "")
+        return "";
+
+    return DataToFetch;
+}
