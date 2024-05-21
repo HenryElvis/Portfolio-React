@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
 import Header from "../components/header-components/header";
 import Footer from "../components/footer-components/footer";
+import Main from "../components/project-components/project-main";
 
 const Project = () => {
 
@@ -30,6 +31,7 @@ const Project = () => {
                 <div id='header'></div>
             </header>
 
+            <Main />
 
             <footer>
                 <div id='footer'></div>

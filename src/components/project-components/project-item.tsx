@@ -82,8 +82,6 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ index }) =>
     );
 }
 
-export default ProjectItem;
-
 export function GetDataToFetch() : string
 {
     if (!DataToFetch || DataToFetch === "")
@@ -91,3 +89,5 @@ export function GetDataToFetch() : string
 
     return DataToFetch;
 }
+
+export default ProjectItem;

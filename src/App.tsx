@@ -10,12 +10,6 @@ function App() {
     {
       path: "/",
       element: <Home />,
-      children: [
-      {
-        path: "/project",
-         element: <Project />
-      }
-      ],
       errorElement: <ErrorPage />
     },
     {
