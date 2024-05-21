@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import Header from "../components/header-components/header";
 import { createRoot } from "react-dom/client";
+import Header from "../components/header-components/header";
 import CardContainers from "../components/card-components/card-containers";
 import ProjectContainers from "../components/project-components/project-containers";
 import Footer from "../components/footer-components/footer";
