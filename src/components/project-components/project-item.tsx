@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { SetData } from "../../App";
 
 interface ProjectData
 {
@@ -14,8 +15,6 @@ interface ProjectItemProps
 {
     index: number;
 }
-
-let DataToFetch: string = "";
 
 const ProjectItem: React.FC<ProjectItemProps> = ({ index }) =>
 {
@@ -57,7 +56,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ index }) =>
         if (itemData)
         {
             setDataToFetch(itemData.dataToFetch);
-            DataToFetch = itemData.dataToFetch;
+            SetData(itemData.dataToFetch);
         }
     }
 
@@ -78,14 +77,6 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ index }) =>
             </div>
         </div>
     );
-}
-
-export function GetDataToFetch() : string
-{
-    if (!DataToFetch || DataToFetch === "")
-        return "";
-
-    return DataToFetch;
 }
 
 export default ProjectItem;
