@@ -1,9 +1,9 @@
-import { GetData } from "../../App";
 import Presentation from "./presentation";
+// import { GetData } from "../../App";
 
 const Main = () => {
 
-    console.log("Data : " + GetData());
+    // console.log("Data : " + GetData());
 
     return (
         <main>

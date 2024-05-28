@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { SetData } from "../../App";
+import { SetData } from "../../components/global";
 
 interface ProjectData
 {

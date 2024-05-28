@@ -24,23 +24,23 @@ function App() {
   )
 }
 
-let DataToFetch: string = "";
+// let DataToFetch: string = "";
 
-export function SetData(data:string) : void
-{
-    DataToFetch = data;
-}
+// export function SetData(data:string) : void
+// {
+//     DataToFetch = data;
+// }
 
-export function GetData() : string
-{
-    if (!DataToFetch || DataToFetch === "")
-    {
-        console.log("Data not found");
+// export function GetData() : string
+// {
+//     if (!DataToFetch || DataToFetch === "")
+//     {
+//         console.log("Data not found");
       
-        return "";
-    }
+//         return "";
+//     }
 
-    return DataToFetch;
-}
+//     return DataToFetch;
+// }
 
 export default App;
