@@ -1,1 +1,1 @@
-{"version":3,"sources":["error.scss","error.css"],"names":[],"mappings":"AAII;EAEI,kBAAA;ACJR","file":"error.css"}
+{"version":3,"sources":["error.scss","error.css","../const.scss"],"names":[],"mappings":"AAEA;EAEI,kBAAA;EACA,iBAAA;ACFJ;ADII;EAEI,uBAAA;EACA,4BAAA;EACA,eAAA;ACHR;ADMI;EAEI,cEfE;EFgBF,cAAA;EACA,4BAAA;ACLR;ADQI;EAEI,cEtBE;EFuBF,qBAAA;EACA,4BAAA;ACPR","file":"error.css"}

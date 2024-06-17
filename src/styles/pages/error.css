@@ -1,3 +1,19 @@
-#error-body h1 {
+#error-body {
   font-family: pixel;
+  margin-top: -10em;
+}
+#error-body h1 {
+  color: rgb(0, 223, 167);
+  text-shadow: #720808 4px 5px;
+  font-size: 12em;
+}
+#error-body h2 {
+  color: #FFC300;
+  font-size: 6em;
+  text-shadow: #776F87 4px 5px;
+}
+#error-body a {
+  color: #FFC300;
+  text-decoration: none;
+  text-shadow: #776F87 4px 5px;
 }/*# sourceMappingURL=error.css.map */

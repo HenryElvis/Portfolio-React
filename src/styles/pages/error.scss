@@ -1,8 +1,9 @@
-@import '/src/styles/const';
+@import '../const';
 
 #error-body
 {
     font-family: pixel;
+    margin-top: -10em;
     
     h1
     {
