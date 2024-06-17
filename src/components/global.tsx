@@ -4,7 +4,7 @@ export function SetData(data: string): void
 {
     DataToFetch = data;
 
-    window.alert("Data set : " + DataToFetch);
+    // window.alert("Data set : " + DataToFetch);
 }
 
 export function GetData(): string {
