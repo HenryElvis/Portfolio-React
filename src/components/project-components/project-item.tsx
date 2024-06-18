@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { SetData } from "../../components/global";
+// import { SetData } from "../../components/global";
 
 interface ProjectData
 {
@@ -56,7 +56,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ index }) =>
         if (itemData)
         {
             setDataToFetch(itemData.dataToFetch);
-            SetData(itemData.dataToFetch);
+            // SetData(itemData.dataToFetch);
         }
     }
 

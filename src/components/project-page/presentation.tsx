@@ -1,14 +1,14 @@
 import { useEffect, useState } from 'react';
-import { GetData } from "../../components/global";
+// import { GetData } from "../../components/global";
 
 const Presentation = () => {
-    const [data, setData] = useState<string>("");
+    const [data, /*setData*/] = useState<string>("");
 
     useEffect(() => 
     {
-        const fetchedData = GetData();
-        console.log("Data: ", fetchedData);
-        setData(fetchedData);
+        // const fetchedData = GetData();
+        // console.log("Data: ", fetchedData);
+        // setData(fetchedData);
     }, [data]);
 
     return (

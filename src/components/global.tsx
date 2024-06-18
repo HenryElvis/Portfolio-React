@@ -1,19 +1,27 @@
-let DataToFetch: string = "";
+export class Global {
+    private static instance: Global;
+    private value: string = "";
 
-export function SetData(data: string): void 
-{
-    DataToFetch = data;
-
-    // window.alert("Data set : " + DataToFetch);
-}
-
-export function GetData(): string {
-    console.log("GetData called");
-    if (!DataToFetch || DataToFetch === "") {
-        console.log("Data not found");
-        return "";
+    private constructor() 
+    {
+        this.value = "";
     }
-    console.log("Data retrieved: " + DataToFetch);
-    return DataToFetch;
-}
 
+    public static GetInstance(): Global {
+        if (!Global.instance) {
+            Global.instance = new Global();
+        }
+
+        return Global.instance;
+    }
+
+    public SetValue(data: string): void 
+    {
+        this.value = data;
+    }
+
+    public GetValue(): string 
+    {
+        return this.value;
+    }
+}
