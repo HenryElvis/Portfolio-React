@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Global } from "../global";
 
 interface ProjectData
 {
@@ -56,9 +55,9 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ index }) =>
         if (itemData)
         {
             setDataToFetch(itemData.dataToFetch);
-            Global.GetInstance().SetValue(itemData.dataToFetch);
 
-            Global.GetInstance().GetValue();
+            sessionStorage.removeItem("dataToFetch");
+            sessionStorage.setItem("dataToFetch", dataToFetch);
         }
     }
 

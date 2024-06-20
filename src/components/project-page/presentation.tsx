@@ -1,14 +1,18 @@
 import { useEffect, useState } from 'react';
-// import { GetData } from "../../components/global";
 
 const Presentation = () => {
     const [data, /*setData*/] = useState<string>("");
 
+    const storedData = sessionStorage.getItem("dataToFetch");
+
+    if (storedData)
+    {
+        console.log("Data fetched from session storage: ", storedData);
+    }
+
     useEffect(() => 
     {
-        // const fetchedData = GetData();
-        // console.log("Data: ", fetchedData);
-        // setData(fetchedData);
+
     }, [data]);
 
     return (
