@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Presentation from "./presentation";
+import '/src/styles/projects/main.scss';
 
 interface MainProps
 {
@@ -10,7 +11,6 @@ const Main = () => {
     const [itemData, setItemData] = useState<MainProps | null>(null);
 
     const dataToFecth = sessionStorage.getItem("dataToFetch");
-    sessionStorage.removeItem("dataToFetch");
 
     useEffect(() =>
     {
@@ -36,7 +36,7 @@ const Main = () => {
 
     return (
         <main>
-            <h1>{itemData?.title}</h1>
+            <h1 id="title-project">{itemData?.title}</h1>
             <Presentation />
         </main>
     );
