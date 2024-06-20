@@ -22,7 +22,7 @@ const Footer = () => {
                 </a>
             </div>
             <div>
-                <a href="https://www.twitch.tv/kiraa24a" target="_blank">
+                <a href="https://www.twitch.tv/kiraa24_" target="_blank">
                     <i className="fa-brands fa-twitch fa-bounce"></i>
                     <p>Twitch</p>
                 </a>
