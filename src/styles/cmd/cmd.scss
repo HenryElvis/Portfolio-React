@@ -52,3 +52,22 @@
 {
     display: none;
 }
+
+@media screen and (max-width: 1200px)
+{
+    #terminal
+    {
+        width: 40em;
+        height: 30em;
+
+        p
+        {
+            margin-left: -15em;
+
+            input
+            {
+                width: 15em;
+            }
+        }
+    }
+}
