@@ -1,0 +1,24 @@
+@import '../const';
+
+section
+{
+    h2
+    {
+        font-size: 2em;
+        color: $text_color;
+    }
+
+    #bloc-p
+    {
+        color: $text_color;
+        font-size: 1.25em;
+        text-align: left;
+    }
+
+    img
+    {
+        max-width: 100%;
+        height: auto;
+        padding-top: 2em;
+    }
+}

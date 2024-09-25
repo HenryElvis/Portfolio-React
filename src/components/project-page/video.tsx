@@ -1,3 +1,5 @@
+import '/src/styles/projects/video.scss';
+
 interface VideoProps
 {
     video:
@@ -29,7 +31,7 @@ const Video: React.FC<VideoProps> = ({video}) => {
                 </iframe>
                 ) : (
                     <video controls>
-                    <source src={video.videoSrc} type="video/mp4" />
+                        <source src={video.videoSrc} type="video/mp4" />
                     </video>
                 )}
             </section>

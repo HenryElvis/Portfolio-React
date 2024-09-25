@@ -1,0 +1,14 @@
+section h2 {
+  font-size: 2em;
+  color: #FFFFFF;
+}
+section #bloc-p {
+  color: #FFFFFF;
+  font-size: 1.25em;
+  text-align: left;
+}
+section img {
+  max-width: 100%;
+  height: auto;
+  padding-top: 2em;
+}/*# sourceMappingURL=blocs.css.map */

@@ -1,3 +1,5 @@
+import '/src/styles/projects/blocs.scss';
+
 interface BlocPresentationProps {
     blocPresentation: 
     {
@@ -15,7 +17,7 @@ const BlocPresentation: React.FC<BlocPresentationProps> = ({blocPresentation}) =
         <>
             <section>
                 <h2>{blocPresentation.title}</h2>
-                <p>{blocPresentation.description}</p>
+                <p id="bloc-p">{blocPresentation.description}</p>
 
                 <img src={blocPresentation.image1} alt={blocPresentation.alt1} />
                 <img src={blocPresentation.image2} alt={blocPresentation.alt2} />
