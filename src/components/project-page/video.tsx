@@ -16,7 +16,6 @@ const Video: React.FC<VideoProps> = ({video}) => {
     return (
         <>
             <section>
-            <p>Vidéo</p>
                 {isYouTubeVideo ? (
                 <iframe
                     width="560"
