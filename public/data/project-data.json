@@ -3,77 +3,84 @@
     [
         {
             "title": "Sperm'Invaders",
-            "imagePath": "/images/1.svg",
+            "imagePath": "/images/Icons/1.svg",
             "content": "Sperm'Invaders est un jeu 2D fait sur unity ou le but est de ramener le plus de spermatozoïdes dans l'ovule. Pour cela, vous devrez éviter les obstacles et les ennemis qui se dresseront sur votre chemin.",
             "alt": "Sperm'Invaders",
             "dataToFetch": "/data/project/Guardian-data.json",
-            "warningContent": true
+            "warningContent": true,
+            "engine" : "Unity"
         }
     ],
     "2":
     [
         {
             "title": "The Guardian",
-            "imagePath": "/images/2.png",
+            "imagePath": "/images/Icons/2.png",
             "content": "The Guardian est un projet de jeu 2D réalisé sous Unity, qui propose une expérience captivante dans un donjon procédural. Plongez dans un monde rempli de mystères et de dangers, où vous incarnez un gardien courageux. Le jeu propose une variété d'ennemis redoutables, des boss puissants et des pièges sournois",
             "alt": "The Guardian",
             "dataToFetch": "/data/project/Guardian-data.json",
-            "warningContent": false
+            "warningContent": false,
+            "engine" : "Unity"
         }
     ],
     "3":
     [
         {
             "title": "Flappy Bird",
-            "imagePath": "/images/3.png",
+            "imagePath": "/images/Icons/3.png",
             "content": "Plongez dans un monde simple mais addictif où vous contrôlez un oiseau et devez éviter les obstacles. Le gameplay de ce jeu est facile à comprendre : vous devez appuyer sur un bouton pour faire voler l'oiseau et éviter les tuyaux qui se dressent sur votre chemin.",
             "alt": "Flappy Bird",
             "dataToFetch": "/data/project/FlappyBird-data.json",
-            "warningContent": false
+            "warningContent": false,
+            "engine" : "Unity"
         }
     ],
     "4":
     [
         {
             "title": "Hydromorphe",
-            "imagePath": "/images/4.png",
+            "imagePath": "/images/Icons/4.png",
             "content": "En tant que joueur, vous devrez maîtriser les mécaniques de transformation entre les états liquide, solide et gazeux pour surmonter les défis qui se présentent à vous. Vous devrez réfléchir de manière stratégique et utiliser les compétences spécifiques à chaque état pour progresser.",
             "alt": "Hydromorphe",
             "dataToFetch": "/data/project/Hydromorph-data.json",
-            "warningContent": false
+            "warningContent": false,
+            "engine" : "Unity"
         }
     ],
     "5":
     [
         {
             "title": "Follow The Light",
-            "imagePath": "/images/5.png",
+            "imagePath": "/images/Icons/5.png",
             "content": "Dans ce projet de jeu développé sous Unreal Engine, vous aurez l'occasion de créer une expérience immersive où les joueurs doivent traverser une zone remplie d'obstacles en utilisant des interrupteurs pour ouvrir des portes et suivre les indices donnés par la lumière pour trouver le bon chemin. Les joueurs devront également faire preuve de patience, de logique et de perspicacité pour trouver le bon chemin et surmonter les obstacles qui se dressent devant eux.",
             "alt": "Follow The Light",
             "dataToFetch": "/data/project/FollowLight-data.json",
-            "warningContent": false
+            "warningContent": false,
+            "engine" : "Unreal Engine"
         }
     ],
     "6":
     [
         {
             "title": "Ninja Trials",
-            "imagePath": "/images/6.png",
+            "imagePath": "/images/Icons/6.png",
             "content": "Le joueur se retrouve plongé dans un environnement hostile et complexe, avec des niveaux conçus pour mettre à l'épreuve ses compétences en résolution de problèmes et en prise de décision rapide. Chaque niveau propose des défis uniques, combinant des obstacles physiques et des énigmes logiques à résoudre. À mesure que les joueurs progressent à travers les différents niveaux, la difficulté augmentera, offrant ainsi un défi croissant.",
             "alt": "Ninja's Challenge",
             "dataToFetch": "/data/project/Ninja-data.json",
-            "warningContent": false
+            "warningContent": false,
+            "engine" : "Unreal Engine"
         }
     ],
     "7":
     [
         {
             "title": "Ragoon's Rumble",
-            "imagePath": "/images/7.jpg",
+            "imagePath": "/images/Icons/7.jpg",
             "content": "Dans la forêt de Yum-yum, où tout est fait de nourriture, utilisez votre marmite contre les alimonsters pour vaincre la malédiction qui pesait sur ces bois. Cook'n Rogue est un jeu d'aventure unique en son genre où vous pouvez cuisiner votre arme ! Dans ce roguelike accessible, amusez-vous avec différents ingrédients dans un environnement fantastique évolutif, et participez à cette grande aventure culinaire !",
             "alt": "Ragoon's Rumble",
             "dataToFetch": "/data/project/RagoonRumble-data.json",
-            "warningContent": false
+            "warningContent": false,
+            "engine" : "Unity"
         }
     ]
 
