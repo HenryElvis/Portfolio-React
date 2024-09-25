@@ -6,7 +6,9 @@ import BlocPresentation from './bloc-presentation';
 const Presentation = () => {
     const [data, /*setData*/] = useState<string>("");
     const [projectVideo, setProjectVideo] = useState({ hasVideo: false, videoSrc: "" });
-    const [blocPres, setBlocPresentation] = useState({ title : "", description : "", image1 : "", image2 : "", alt1 : "", alt2 : "" });
+    const [blocPres1, setBlocPresentation1] = useState({ title : "", description : "", image1 : "", image2 : "", alt1 : "", alt2 : "" });
+    const [blocPres2, setBlocPresentation2] = useState({ title : "", description : "", image1 : "", image2 : "", alt1 : "", alt2 : "" });
+    const [blocPres3, setBlocPresentation3] = useState({ title : "", description : "", image1 : "", image2 : "", alt1 : "", alt2 : "" });
 
     const storedData = sessionStorage.getItem("dataToFetch");
 
@@ -27,7 +29,9 @@ const Presentation = () => {
         })
         .then((data) =>
         {
-            setBlocPresentation({ title: data.title, description: data.description, image1: data.image1, image2: data.image2, alt1: data.alt1, alt2: data.alt2 });
+            setBlocPresentation1({ title: data.bloc1.title, description: data.bloc1.description, image1: data.bloc1.image1, image2: data.bloc1.image2, alt1: data.bloc1.alt1, alt2: data.bloc1.alt2 });
+            setBlocPresentation2({ title: data.bloc2.title, description: data.bloc2.description, image1: data.bloc2.image1, image2: data.bloc2.image2, alt1: data.bloc2.alt1, alt2: data.bloc2.alt2 });
+            setBlocPresentation3({ title: data.bloc3.title, description: data.bloc3.description, image1: data.bloc3.image1, image2: data.bloc3.image2, alt1: data.bloc3.alt1, alt2: data.bloc3.alt2 });
             setProjectVideo({ hasVideo: data.hasVideo, videoSrc: data.videoSrc });
         })
         .catch((error: any) => {
@@ -38,27 +42,9 @@ const Presentation = () => {
 
     return (
         <>
-            <h1>
-                Project Presentation
-            </h1>
-
-            <BlocPresentation blocPresentation={blocPres}/>
-
-            <section>
-                <h2>Objective</h2>
-                <p>Here is the objective of the project.</p>
-
-                <img src="" alt="" />
-                <img src="" alt="" />
-            </section>
-
-            <section>
-                <h2>Control</h2>
-                <p>Here is the methodology used in the project.</p>
-
-                <img src="" alt="" />
-                <img src="" alt="" />
-            </section>
+            <BlocPresentation blocPresentation={blocPres1}/>
+            <BlocPresentation blocPresentation={blocPres2}/>
+            <BlocPresentation blocPresentation={blocPres3}/>
 
             <Video video={projectVideo} />
         </>
