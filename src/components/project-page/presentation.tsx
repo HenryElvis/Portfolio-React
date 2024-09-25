@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react';
 import '/src/styles/projects/presentation.scss';
 import Video from './video';
+import BlocPresentation from './bloc-presentation';
 
 const Presentation = () => {
     const [data, /*setData*/] = useState<string>("");
     const [projectVideo, setProjectVideo] = useState({ hasVideo: false, videoSrc: "" });
+    const [blocPres, setBlocPresentation] = useState({ title : "", description : "", image1 : "", image2 : "", alt1 : "", alt2 : "" });
 
     const storedData = sessionStorage.getItem("dataToFetch");
 
@@ -25,6 +27,7 @@ const Presentation = () => {
         })
         .then((data) =>
         {
+            setBlocPresentation({ title: data.title, description: data.description, image1: data.image1, image2: data.image2, alt1: data.alt1, alt2: data.alt2 });
             setProjectVideo({ hasVideo: data.hasVideo, videoSrc: data.videoSrc });
         })
         .catch((error: any) => {
@@ -39,13 +42,7 @@ const Presentation = () => {
                 Project Presentation
             </h1>
 
-            <section>
-                <h2>Introduction</h2>
-                <p>Here is a brief introduction to the project.</p>
-
-                <img src="" alt="" />
-                <img src="" alt="" />
-            </section>
+            <BlocPresentation blocPresentation={blocPres}/>
 
             <section>
                 <h2>Objective</h2>
