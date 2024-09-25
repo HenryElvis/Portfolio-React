@@ -4,13 +4,12 @@ import Video from './video';
 
 const Presentation = () => {
     const [data, /*setData*/] = useState<string>("");
+    const [projectVideo, setProjectVideo] = useState({ hasVideo: false, videoSrc: "" });
 
     const storedData = sessionStorage.getItem("dataToFetch");
 
     if (storedData)
-    {
         console.log("Data fetched from session storage: ", storedData);
-    }
 
     useEffect(() => 
     {
@@ -24,21 +23,15 @@ const Presentation = () => {
 
             return response.json();
         })
-        // .then((data) =>
-        // {
-        //     // setData(data.presentation);
-        // })
+        .then((data) =>
+        {
+            setProjectVideo({ hasVideo: data.hasVideo, videoSrc: data.videoSrc });
+        })
         .catch((error: any) => {
             console.error("Error fetching item data:", error.message);
         });
 
     }, [data]);
-
-    const projectVideo = 
-    {
-        hasVideo: true,
-        videoSrc: "https://www.youtube.com/watch?v=um7OkTKy7Dc"
-    }
 
     return (
         <>
@@ -49,6 +42,7 @@ const Presentation = () => {
             <section>
                 <h2>Introduction</h2>
                 <p>Here is a brief introduction to the project.</p>
+
                 <img src="" alt="" />
                 <img src="" alt="" />
             </section>
@@ -56,6 +50,7 @@ const Presentation = () => {
             <section>
                 <h2>Objective</h2>
                 <p>Here is the objective of the project.</p>
+
                 <img src="" alt="" />
                 <img src="" alt="" />
             </section>
@@ -63,13 +58,12 @@ const Presentation = () => {
             <section>
                 <h2>Control</h2>
                 <p>Here is the methodology used in the project.</p>
+
                 <img src="" alt="" />
                 <img src="" alt="" />
             </section>
 
             <Video video={projectVideo} />
-
-            <p>{data}</p>
         </>
     );
 };

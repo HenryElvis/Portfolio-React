@@ -2,5 +2,7 @@
     "title": "Follow The Light",
     "hasDemo": true,
     "hasDownloadFile": true,
-    "hasItchIO": true
+    "hasItchIO": true,
+    "hasVideo" : false,
+    "videoSrc" : ""
 }
