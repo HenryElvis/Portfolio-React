@@ -35,4 +35,17 @@
 
 .hidden {
   display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  #terminal {
+    width: 40em;
+    height: 30em;
+  }
+  #terminal p {
+    margin-left: -15em;
+  }
+  #terminal p input {
+    width: 15em;
+  }
 }/*# sourceMappingURL=cmd.css.map */

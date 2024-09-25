@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-// import Presentation from "./presentation";
 import '/src/styles/projects/main.scss';
+import Presentation from "./presentation";
 
 interface MainProps
 {
@@ -37,7 +37,7 @@ const Main = () => {
     return (
         <main>
             <h1 id="title-project">{itemData?.title}</h1>
-            {/* <Presentation /> */}
+            {<Presentation />}
         </main>
     );
 };

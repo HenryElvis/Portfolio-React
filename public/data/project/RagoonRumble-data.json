@@ -2,5 +2,7 @@
     "title": "Ragoon's Rumble",
     "hasDemo": true,
     "hasDownloadFile": true,
-    "hasItchIO": true
+    "hasItchIO": true,
+    "hasVideo" : true,
+    "videoSrc" : "https://www.youtube.com/watch?v=um7OkTKy7Dc"
 }
