@@ -9,8 +9,8 @@
     {
         "title": "Explorez",
         "description": "Ragoon Rumble est un roguelike centré sur la nourriture , dans lequel vous utilisez votre marmite pour vaincre les monstres auxquels vous ferez face au cours de votre exploration de la forêt Yum-Yum. Rassemblez les ingrédients et mélangez-les pour découvrir les pouvoirs qu'ils vous confèrent ; et quel pouvoir encore plus grand vous pouvez obtenir en faisant les bons mélanges... Des objets spéciaux trouvés dans les profondeurs de la forêt vous aideront également dans votre combat.",
-        "image1": "public/images/Presentation/Ragoon/cook1.jpg",
-        "image2": "public/images/Presentation/Ragoon/cook2.jpg",
+        "image1": "/images/Presentation/Ragoon/cook1.jpg",
+        "image2": "/images/Presentation/Ragoon/cook2.jpg",
         "alt1": "Cooking image",
         "alt2": "Cooking image"
     },
@@ -18,8 +18,8 @@
     {
         "title": "Cuisinez",
         "description": "Allez assez loin dans votre exploration et vous pourriez bien tomber sur des super monstres aux attaques spéciales qui vous mèneront la vie dure... Roulez et cuisinez pour tenter de vous en sortir vivant ! Dans Ragoon Rumble, les ingrédients, les objets et les salles sont générés de manière procédurale pour conserver l'identité d'un roguelike classique. Cependant, la façon dont vous utilisez vos ingrédients et les recettes que vous choisissez de cuisiner ne dépendent que de vous ! Jouez à Ragoon Rumble maintenant et aidez Ragoon à devenir le meilleur chef pour sauver la forêt Yum-Yum !",
-        "image1": "/public/images/Presentation/Ragoon/heal.png",
-        "image2": "/public/images/Presentation/Ragoon/boss1.png",
+        "image1": "/images/Presentation/Ragoon/heal.png",
+        "image2": "/images/Presentation/Ragoon/boss1.png",
         "alt1": "Heal",
         "alt2": "Boss"
     },
@@ -27,8 +27,8 @@
     {
         "title": "Combattez",
         "description": "Vous avez besoin d'une manette pour jouer à Ragoon Rumble.",
-        "image1": "/public/images/Presentation/Ragoon/boss2.png",
-        "image2": "/public/images/Presentation/Ragoon/controller.png",
+        "image2": "/images/Presentation/Ragoon/controller.png",
+        "image1": "/images/Presentation/Ragoon/boss2.png",
         "alt1": "Boss",
         "alt2": "Controller"
     }
