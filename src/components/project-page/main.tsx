@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import '/src/styles/projects/main.scss';
 import Presentation from "./presentation";
+import { useNavigate } from "react-router-dom";
 
 interface MainProps
 {
@@ -11,10 +12,15 @@ const Main = () => {
     const [itemData, setItemData] = useState<MainProps | null>(null);
 
     const dataToFecth = sessionStorage.getItem("dataToFetch");
+    const navigate = useNavigate();
 
     useEffect(() =>
     {
-        if (!dataToFecth) return;
+        if (!dataToFecth) 
+        {
+            navigate("/error");
+            return;
+        }
 
         fetch(dataToFecth)
         .then((response) =>
