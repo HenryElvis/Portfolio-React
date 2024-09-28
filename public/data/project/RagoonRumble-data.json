@@ -1,7 +1,9 @@
 {
     "title": "Ragoon Rumble",
     "hasDemo": true,
-    "hasDownloadFile": true,
+    "isDownloadable": true,
+    "downladableText": "Cliquez pour jouer",
+    "downlaodLink": "https://elecktro-punch.itch.io/ragoon-rumble",
     "hasItchIO": true,
     "hasVideo" : true,
     "videoSrc" : "https://www.youtube.com/embed/imVJhlvfZno?start=0",

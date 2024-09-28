@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import '/src/styles/projects/presentation.scss';
 import Video from './video';
 import BlocPresentation from './bloc-presentation';
+import DownloadableButton from './DownloadableButton';
 
 const Presentation = () => {
     const [data, /*setData*/] = useState<string>("");
@@ -9,6 +10,7 @@ const Presentation = () => {
     const [blocPres1, setBlocPresentation1] = useState({ title : "", description : "", image1 : "", image2 : "", alt1 : "", alt2 : "" });
     const [blocPres2, setBlocPresentation2] = useState({ title : "", description : "", image1 : "", image2 : "", alt1 : "", alt2 : "" });
     const [blocPres3, setBlocPresentation3] = useState({ title : "", description : "", image1 : "", image2 : "", alt1 : "", alt2 : "" });
+    const [downloadableSettings, setDownloadableSettings] = useState({ isDownloadable: false, text: "", link: "" });
 
     const storedData = sessionStorage.getItem("dataToFetch");
 
@@ -33,6 +35,7 @@ const Presentation = () => {
             setBlocPresentation2({ title: data.bloc2.title, description: data.bloc2.description, image1: data.bloc2.image1, image2: data.bloc2.image2, alt1: data.bloc2.alt1, alt2: data.bloc2.alt2 });
             setBlocPresentation3({ title: data.bloc3.title, description: data.bloc3.description, image1: data.bloc3.image1, image2: data.bloc3.image2, alt1: data.bloc3.alt1, alt2: data.bloc3.alt2 });
             setProjectVideo({ hasVideo: data.hasVideo, videoSrc: data.videoSrc });
+            setDownloadableSettings({ isDownloadable: data.isDownloadable, text: data.downladableText, link: data.downlaodLink });
         })
         .catch((error: any) => {
             console.error("Error fetching item data:", error.message);
@@ -47,6 +50,8 @@ const Presentation = () => {
             <BlocPresentation blocPresentation={blocPres3}/>
 
             <Video video={projectVideo} />
+
+            <DownloadableButton dowloadSettings={downloadableSettings} />
         </>
     );
 };

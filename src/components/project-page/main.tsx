@@ -38,7 +38,7 @@ const Main = () => {
             console.error("Error fetching item data:", error.message);
         });
         
-    }, []);
+    }, [dataToFecth, navigate]);
 
     return (
         <main>

@@ -8,6 +8,8 @@ import Footer from "../components/footer-components/footer";
 const Home = () => {
     const [rootCreated, setRootCreated] = useState(false);
 
+    // sessionStorage.clear();
+
     useEffect(() => {
         if (rootCreated === false) {
             const headerRoot = document.getElementById('header') as HTMLElement;
