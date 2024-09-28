@@ -1,0 +1,37 @@
+{
+    "title": "Decadence",
+    "hasDemo": true,
+    "isDownloadable": true,
+    "downladableText": "Cliquez pour jouer",
+    "downlaodLink": "https://tom-lori-games.itch.io/decadence-la-chute-dostrand",
+    "hasItchIO": true,
+    "hasVideo" : true,
+    "videoSrc" : "https://www.youtube.com/embed/g5eLwtrslNo",
+    "bloc1" :
+    {
+        "title": "Présentation",
+        "description": "Décadence : La chute d'Ostrand est jeu solo d'aventure 3eme personne réalisé avec le moteur Unreal Engine 4 mettant en scène l'histoire de Knutt, un soldat du royaume d'Ostrand. Impuissant, il assiste au massacre de son village natal, et décide alors de retrouver les coupables et de se venger.",
+        "image1": "/images/Presentation/Decadence/1.jpg",
+        "image2": "/images/Presentation/Decadence/2.jpg",
+        "alt1": "Knut image",
+        "alt2": "Village image"
+    },
+    "bloc2" :
+    {
+        "title": "Production",
+        "description": "Nous avons commencer la préproduction du jeu en septembre 2021 avec 4 autres Game Designers, cette dernière aura durée 3 mois. Elle a permis de poser les bases du projet et de les détailler au maximum afin que nos équipes comprennent au mieux notre vision et notre volonté. Janvier 2022, nous sommes entré en phase de production du jeu, avec une vingtaine de personnes au total dans l'équipe, réunissant Game Designer, Game artiste, Game développeur, Game animator et Sound Designer.",
+        "image1": "/images/Presentation/Decadence/3.jpg",
+        "image2": "/images/Presentation/Decadence/4.jpg",
+        "alt1": "Tuto image",
+        "alt2": "Village image"
+    },
+    "bloc3" :
+    {
+        "title": "Responsabilités",
+        "description": "J'ai été en charge de la conception des différents IA du jeu, de la conception des combats, leurs comportements ainsi que leurs caractéristiques. J'ai également participé à la création du tutoriel et l'interface passant par le menu principal et l'interface de jeu. Le projet s'est achevé en août 2022 à la suite de 7 mois de production.",
+        "image2": "/images/Presentation/Decadence/5.jpg",
+        "image1": "",
+        "alt1": "Burning village",
+        "alt2": ""
+    }
+}

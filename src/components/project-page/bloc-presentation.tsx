@@ -13,6 +13,9 @@ interface BlocPresentationProps {
 }
 
 const BlocPresentation: React.FC<BlocPresentationProps> = ({blocPresentation}) => {
+
+    if (!blocPresentation) return null;
+
     return (
         <>
             <section>

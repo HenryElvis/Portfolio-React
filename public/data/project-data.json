@@ -74,8 +74,20 @@
     "7":
     [
         {
+            "title": "Décadence : La chute d'Ostrand",
+            "imagePath": "/images/Icons/7.png",
+            "content": "Décadence : La chute d'Ostrand est jeu solo d'aventure 3eme personne réalisé avec le moteur Unreal Engine 4 mettant en scène l'histoire de Knutt, un soldat du royaume d'Ostrand. Impuissant, il assiste au massacre de son village natal, et décide alors de retrouver les coupables et de se venger.",
+            "alt": "Décadence",
+            "dataToFetch": "/data/project/Decadence.json",
+            "warningContent": false,
+            "engine" : "Unreal Engine"
+        }
+    ],
+    "8":
+    [
+        {
             "title": "Ragoon Rumble",
-            "imagePath": "/images/Icons/7.jpg",
+            "imagePath": "/images/Icons/8.jpg",
             "content": "Dans la forêt de Yum-yum, où tout est fait de nourriture, utilisez votre marmite contre les alimonsters pour vaincre la malédiction qui pesait sur ces bois. Cook'n Rogue est un jeu d'aventure unique en son genre où vous pouvez cuisiner votre arme ! Dans ce roguelike accessible, amusez-vous avec différents ingrédients dans un environnement fantastique évolutif, et participez à cette grande aventure culinaire !",
             "alt": "Ragoon's Rumble",
             "dataToFetch": "/data/project/RagoonRumble-data.json",
@@ -83,5 +95,4 @@
             "engine" : "Unity"
         }
     ]
-
 }
