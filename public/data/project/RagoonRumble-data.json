@@ -29,8 +29,8 @@
     {
         "title": "Combattez",
         "description": "Vous avez besoin d'une manette pour jouer à Ragoon Rumble.",
-        "image2": "/images/Presentation/Ragoon/controller.png",
         "image1": "/images/Presentation/Ragoon/boss2.png",
+        "image2": "/images/Presentation/Ragoon/controller.png",
         "alt1": "Boss",
         "alt2": "Controller"
     }

@@ -4,6 +4,8 @@
 {
     button
     {
+        margin-top: 3em;
+        margin-bottom: 1.5em;
         background: linear-gradient(to left, $button_background_color_gradient);
         border: 2px solid $button_border_color;
         border-radius: 5px;

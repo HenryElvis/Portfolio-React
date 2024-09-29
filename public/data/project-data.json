@@ -94,5 +94,17 @@
             "warningContent": false,
             "engine" : "Unity"
         }
+    ],
+    "9":
+    [
+        {
+            "title": "Room",
+            "imagePath": "/images/Icons/9.png",
+            "content": "Room est un jeu à la première personne qui défie votre mémoire et vous plonge dans un espace mystérieux rempli d'oeuvre et de  tableau connus. Vous incarnez un personnage qui se réveille dans une pièce étrange et doit trouver un moyen de s'échapper. Pour cela, vous devrez choisir la bonne porte, explorer l'environnement et faites attention aux détails.",
+            "alt": "Room",
+            "dataToFetch": "/data/project/Room-data.json",
+            "warningContent": false,
+            "engine" : "Unreal Engine"
+        }
     ]
 }

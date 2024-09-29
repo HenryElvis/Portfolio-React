@@ -14,7 +14,7 @@ interface BlocPresentationProps {
 
 const BlocPresentation: React.FC<BlocPresentationProps> = ({blocPresentation}) => {
 
-    if (!blocPresentation) return null;
+    if (!blocPresentation || !blocPresentation.title) return null;
 
     return (
         <>
