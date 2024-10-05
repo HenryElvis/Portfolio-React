@@ -1,0 +1,13 @@
+.project-image {
+  position: relative;
+  display: inline-block;
+}
+.project-image .main-image {
+  display: block;
+  width: 100%;
+}
+.project-image .logo {
+  position: absolute;
+  top: 45px;
+  left: 10px;
+}/*# sourceMappingURL=project-item.css.map */

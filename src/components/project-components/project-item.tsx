@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import Icon from "./icon-project";
+import '/src/styles/projects/project-item.scss';
 
 interface ProjectData
 {
@@ -8,6 +10,7 @@ interface ProjectData
     alt: string;
     dataToFetch: string;
     warningContent: boolean;
+    engine: string;
 }
 
 interface ProjectItemProps
@@ -19,8 +22,10 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ index }) =>
 {
     const [itemData, setItemData] = useState<ProjectData | null>(null);
     const [dataToFetch, setDataToFetch] = useState<string>("");
+    const [isUnity, setIsUnity] = useState<boolean>(true);
 
     const isWarningContent = itemData?.warningContent;
+    const isOnUnity = itemData?.engine;
 
     useEffect(() =>
     {
@@ -40,6 +45,11 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ index }) =>
             {
                 setItemData(itemFound[0]);
                 setDataToFetch(itemFound[0].dataToFetch);
+
+                if (isOnUnity === "Unreal Engine")
+                    setIsUnity(false);
+                else
+                    setIsUnity(true);
             }
             else
                 console.error("Item not found:", index);
@@ -65,7 +75,8 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ index }) =>
         <div className={isWarningContent ? "content-warning" : ""}>
             <div className="project-image">
                 <a href={isWarningContent ? "/" : "/project"} onClick={SetDataToFetch}>
-                    <img src={itemData?.imagePath} alt={itemData?.alt} />
+                    <img src={itemData?.imagePath} alt={itemData?.alt} className="main-image"/>
+                    <Icon IsUnity={isUnity} ClassName="logo"/>
                 </a>
             </div>
             <div className="project-content">

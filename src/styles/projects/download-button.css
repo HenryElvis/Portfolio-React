@@ -1,8 +1,10 @@
 #download-button button {
+  margin-top: 3em;
+  margin-bottom: 1.5em;
   background: linear-gradient(to left, #280E2F, #121345);
   border: 2px solid #FFC300;
   border-radius: 5px;
-  color: #ffe600;
+  color: #FFC300;
   font-size: 1.5em;
   padding: 0.5em 1em;
   text-align: center;

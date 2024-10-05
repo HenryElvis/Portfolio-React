@@ -1,0 +1,18 @@
+.project-image
+{
+    position: relative;
+    display: inline-block;
+
+    .main-image
+    {
+        display: block;
+        width: 100%;
+    }
+
+    .logo 
+    {
+        position: absolute;
+        top: 45px;
+        left: 10px;
+    }
+}
