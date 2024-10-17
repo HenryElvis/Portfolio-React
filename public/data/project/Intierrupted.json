@@ -1,0 +1,38 @@
+{
+    "pageDone": false,
+    "title": "InTierrupted",
+    "hasDemo": true,
+    "isDownloadable": true,
+    "downladableText": "Plus d'informations",
+    "downlaodLink": "https://clementnowacki.com/2023/01/15/intierrupted-alt-ctrl-gdc-2023/",
+    "hasItchIO": false,
+    "hasVideo" : true,
+    "videoSrc" : "https://www.youtube.com/embed/6W0dowp3Xbw?start=1",
+    "bloc1" :
+    {
+        "title": "Observez et retenez",
+        "description": "Plongez dans l'univers fascinant de ROØM, un jeu d'aventure unique où chaque éléments compte. Explorez des environnements immersifs,  mais attention, il vous faudra tout retenir. Aidez vous de ce que vous avez retenu pour savoir si la pièce à malencontreusement changée par rapport à la pièce originale. Si c'est le cas, attention à revenir en arrière sinon continuez votre chemin. Sans cela, vous serez condamné pour toujours entre ces murs et ces tableaux.",
+        "image1": "/images/Presentation/Room/1.png",
+        "image2": "/images/Presentation/Room/2.png",
+        "alt1": "Salle intro",
+        "alt2": "Salle 2"
+    },
+    "bloc2" :
+    {
+        "title": "Moteur",
+        "description": "Pour ce projet j'ai décidé d'utiliser le moteur Unreal Engine afin d'avoir un rendu optimal très rapidement. ROOM est fait presque entierement en C++ avec quelques blocs en blueprint notemment pour la logique de l'UI, j'ai décidé de faire les plus grosses partie en C++ afin de me challenger etant donné que je suis plus à l'aise en C# qu'en C++.",
+        "image1": "/images/Presentation/Room/3.png",
+        "image2": "/images/Presentation/Room/4.png",
+        "alt1": "Salle 3",
+        "alt2": "Salle 3"
+    },
+    "bloc3" :
+    {
+        "title": "",
+        "description": "",
+        "image1": "",
+        "image2": "",
+        "alt1": "",
+        "alt2": ""
+    }
+}

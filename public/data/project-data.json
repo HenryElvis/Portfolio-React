@@ -86,6 +86,18 @@
     "8":
     [
         {
+            "title": "InTIErrupted",
+            "imagePath": "/images/Icons/8.png",
+            "content": "inTIErrupted est un jeu coopératif à 2 joueurs créé lors d'une classe de'une game jam pour thème controlleur alternatif. L'objectif principal des joueurs est de dénouer complètement une cravate de 3 mètres de long sans se faire attraper. Ce projet a voyagé jusqu'a la GDC 2023 à San Francisco où nous avons eu l'honneur d'avoir été invité.",
+            "alt": "Intierrupted",
+            "dataToFetch": "/data/project/Intierrupted.json",
+            "warningContent": false,
+            "engine" : "Unity"
+        }
+    ],
+    "9":
+    [
+        {
             "title": "Ragoon Rumble",
             "imagePath": "/images/Icons/8.jpg",
             "content": "Dans la forêt de Yum-yum, où tout est fait de nourriture, utilisez votre marmite contre les alimonsters pour vaincre la malédiction qui pesait sur ces bois. Cook'n Rogue est un jeu d'aventure unique en son genre où vous pouvez cuisiner votre arme ! Dans ce roguelike accessible, amusez-vous avec différents ingrédients dans un environnement fantastique évolutif, et participez à cette grande aventure culinaire !",
@@ -95,7 +107,7 @@
             "engine" : "Unity"
         }
     ],
-    "9":
+    "10":
     [
         {
             "title": "Room",

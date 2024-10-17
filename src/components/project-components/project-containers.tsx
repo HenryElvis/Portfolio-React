@@ -15,6 +15,7 @@ const ProjectContainers = () => {
             <ProjectItem index={7} />
             <ProjectItem index={8} />
             <ProjectItem index={9} />
+            <ProjectItem index={10} />
         </div>
     )
 }
