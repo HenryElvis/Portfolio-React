@@ -1,8 +1,38 @@
 {
+    "pageDone": true,
     "title": "Follow The Light",
-    "hasDemo": true,
-    "hasDownloadFile": true,
-    "hasItchIO": true,
+    "hasDemo": false,
+    "isDownloadable": false,
+    "downladableText": "Cliquez pour jouer",
+    "downlaodLink": "https://kiraa24.itch.io/room",
+    "hasItchIO": false,
     "hasVideo" : false,
-    "videoSrc" : ""
+    "videoSrc" : "",
+    "bloc1" :
+    {
+        "title": "Lorem ipsum",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec pur",
+        "image1": "/images/Presentation/Light/1.jpg",
+        "image2": "/images/Presentation/Light/2.jpg",
+        "alt1": "intro",
+        "alt2": "intro 2"
+    },
+    "bloc2" :
+    {
+        "title": "Lorem ipsum",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec pur",
+        "image1": "/images/Presentation/Light/3.jpg",
+        "image2": "/images/Presentation/Light/4.jpg",
+        "alt1": "Platform 1",
+        "alt2": "Platform 2"
+    },
+    "bloc3" :
+    {
+        "title": "",
+        "description": "",
+        "image1": "",
+        "image2": "",
+        "alt1": "",
+        "alt2": ""
+    }
 }
