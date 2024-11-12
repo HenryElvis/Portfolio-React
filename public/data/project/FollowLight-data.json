@@ -10,8 +10,8 @@
     "videoSrc" : "",
     "bloc1" :
     {
-        "title": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec pur",
+        "title": "Description",
+        "description": "Ce jeu a été réalisé dans le cadre d'un projet scolaire. Il s'agit d'un jeu de plateforme en 3D où le joueur doit suivre la lumière pour progresser. Le jeu est réalisé en blueprint et en C++ avec le moteur de jeu Unreal Engine.",
         "image1": "/images/Presentation/Light/1.jpg",
         "image2": "/images/Presentation/Light/2.jpg",
         "alt1": "intro",
@@ -19,8 +19,8 @@
     },
     "bloc2" :
     {
-        "title": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec pur",
+        "title": "Obstacles",
+        "description": "Il existe plusieurs types d'obstacles dans le jeu. Certains sont fixes, d'autres sont mobiles. Le joueur doit les éviter pour ne pas perdre de vie. Il peut également collecter des bonus pour gagner des points. La lumière est la seule aide que le joueur a pour progresser.",
         "image1": "/images/Presentation/Light/3.jpg",
         "image2": "/images/Presentation/Light/4.jpg",
         "alt1": "Platform 1",
