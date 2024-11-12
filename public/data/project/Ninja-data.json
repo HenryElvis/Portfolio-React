@@ -1,6 +1,38 @@
 {
+    "pageDone": true,
     "title": "Ninja Trials",
-    "hasDemo": true,
-    "hasDownloadFile": true,
-    "hasItchIO": true
+    "hasDemo": false,
+    "isDownloadable": false,
+    "downladableText": "Cliquez pour jouer",
+    "downlaodLink": "https://kiraa24.itch.io",
+    "hasItchIO": false,
+    "hasVideo" : false,
+    "videoSrc" : "",
+    "bloc1" :
+    {
+        "title": "Lorem ipsum",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec pur, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec pur",
+        "image1": "/images/Presentation/Ninja/2.jpg",
+        "image2": "/images/Presentation/Ninja/1.jpg",
+        "alt1": "intro room 1",
+        "alt2": "intro room 2"
+    },
+    "bloc2" :
+    {
+        "title": "Lorem ipsum",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec pur, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec pur",
+        "image1": "/images/Presentation/Ninja/3.jpg",
+        "image2": "/images/Presentation/Ninja/4.jpg",
+        "alt1": "room 2",
+        "alt2": "room 2"
+    },
+    "bloc3" :
+    {
+        "title": "Lorem ipsum",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec pur, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec pur",
+        "image1": "/images/Presentation/Ninja/5.jpg",
+        "image2": "/images/Presentation/Ninja/6.jpg",
+        "alt1": "Outside 1",
+        "alt2": "Ouside 2"
+    }
 }
