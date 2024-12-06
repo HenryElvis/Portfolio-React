@@ -10,8 +10,8 @@
     "videoSrc" : "",
     "bloc1" :
     {
-        "title": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec pur, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec pur",
+        "title": "Première scène",
+        "description": "Allumez la lumière et découvrez les obstacles ainsi que les points d'expérience a collecter pour passer au niveau suivant. Attention, les ennemis sont partout et vous devrez les éviter pour ne pas perdre de vie. Vous avez 3 vies pour réussir le niveau. Bonne chance !",
         "image1": "/images/Presentation/Ninja/2.jpg",
         "image2": "/images/Presentation/Ninja/1.jpg",
         "alt1": "intro room 1",
@@ -19,8 +19,8 @@
     },
     "bloc2" :
     {
-        "title": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec pur, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec pur",
+        "title": "Deuxième scène",
+        "description": "Possedez les différents personnage pour pouvoir passer les obstacles et résoudre les enigmes. Attention, les pièges sont partout et vous devrez les éviter pour ne pas perdre de vie.",
         "image1": "/images/Presentation/Ninja/3.jpg",
         "image2": "/images/Presentation/Ninja/4.jpg",
         "alt1": "room 2",
