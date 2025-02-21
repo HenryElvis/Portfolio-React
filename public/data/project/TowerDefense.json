@@ -1,0 +1,38 @@
+{
+    "pageDone": true,
+    "title": "Tower Defense",
+    "hasDemo": false,
+    "isDownloadable": false,
+    "downladableText": "Cliquez pour jouer",
+    "downlaodLink": "https://kiraa24.itch.io/room",
+    "hasItchIO": false,
+    "hasVideo" : false,
+    "videoSrc" : "",
+    "bloc1" :
+    {
+        "title": "Particules et lighting",
+        "description": "L'utilisation de particules permet de donner un effet de profondeur et de dynamisme à l'ensemble du jeu. Les particules sont utilisées pour les tirs des tours, les explosions, les effets de mort des ennemis ainsi que des particules de pluies, et de vent pour donner un effet de vie à l'ensemble du jeu. Cela permet de rendre le jeu plus immersif et de donner une meilleure expérience de jeu. L'ambiance lumineuse en rajoutant de l'aberance chromatique, de vignette et de bloom permet de donner un effet de lumière et de chaleur à l'ensemble du jeu. Nous changeons également ces valeurs en fonction des points de vies restant du joueur pour donner un effet de tension et de stress.",
+        "image1": "/images/Presentation/TowerDefense/1.png",
+        "image2": "/images/Presentation/TowerDefense/2.png",
+        "alt1": "Menu",
+        "alt2": "Starting"
+    },
+    "bloc2" :
+    {
+        "title": "Design Pattern",
+        "description": "Plusieurs desing pattern ont été utilisés pour la réalisation de ce projet. Le design pattern le plus utilisé est le design pattern de la Factory qui permet de créer des objets sans spécifier la classe exacte de l'objet qui sera créé. Cela permet de rendre le code plus modulaire et plus facile à maintenir. Un autre design pattern utilisé est le design pattern de l'Observer qui permet de notifier les tours lorsqu'un ennemi est à portée de tir. Cela permet de rendre le code plus modulaire et plus facile à maintenir. Le singleton a été utilisé pour la gestion des des managers de sons et d'argent. Cela permet de garantir qu'il n'y ait qu'une seule instance de ces managers dans le jeu. Et le state pattern a été utilisé pour la gestion des états tuiles pour savoir si elles sont disponibles à la construction ou non.",
+        "image1": "/images/Presentation/TowerDefense/4.png",
+        "image2": "/images/Presentation/TowerDefense/3.png",
+        "alt1": "Enemies",
+        "alt2": "Turrets"
+    },
+    "bloc3" :
+    {
+        "title": "Game Feel",
+        "description": "L'ajout de feedbacks visuels et sonores permet de donner un effet de réactivité et de dynamisme à l'ensemble du jeu. La caméra est mouvement constant pour que le joueur ne s'ennuit pas, les effets de explosions et de tremblement de caméra permettent de donner un effet de puissance. Les fleurs et différentes végétations changent régulièrement de scale toujours dans le but d'avoir un jeu non static et qu'on puisse moins s'ennuyer. Lorsque le joueur perd, les éléments décoratifs se mettent a sauter dans les airs pour donner un effet de destruction et de fin de partie.",
+        "image1": "/images/Presentation/TowerDefense/5.png",
+        "image2": "/images/Presentation/TowerDefense/6.png",
+        "alt1": "Game Over",
+        "alt2": "Victory"
+    }
+}

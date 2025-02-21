@@ -26,11 +26,11 @@
     "3":
     [
         {
-            "title": "Flappy Bird",
-            "imagePath": "/images/Icons/3.png",
-            "content": "Plongez dans un monde simple mais addictif où vous contrôlez un oiseau et devez éviter les obstacles. Le gameplay de ce jeu est facile à comprendre : vous devez appuyer sur un bouton pour faire voler l'oiseau et éviter les tuyaux qui se dressent sur votre chemin.",
-            "alt": "Flappy Bird",
-            "dataToFetch": "/data/project/FlappyBird-data.json",
+            "title": "Tower Defense",
+            "imagePath": "/images/Icons/TowerDefense.png",
+            "content": "Tower Defense est un jeu de stratégie en temps réel où le joueur doit défendre sa base contre des vagues d'ennemis. Le joueur doit placer des tours pour attaquer les ennemis et les empêcher d'atteindre la base. Le jeu propose une variété de tours et d'ennemis, ainsi que des niveaux de difficulté croissants.",
+            "alt": "TowerDefense",
+            "dataToFetch": "/data/project/TowerDefense.json",
             "warningContent": false,
             "engine" : "Unity"
         }
