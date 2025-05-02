@@ -1,0 +1,38 @@
+{
+    "pageDone": true,
+    "title": "LLM Farm",
+    "hasDemo": false,
+    "isDownloadable": false,
+    "downladableText": "Cliquez pour essayer la démo",
+    "downlaodLink": "https://kiraa24.itch.io/room",
+    "hasItchIO": true,
+    "hasVideo" : false,
+    "videoSrc" : "",
+    "bloc1" :
+    {
+        "title": "Personnage et environnement",
+        "description": "Afin de laisser les personnages gérer correctement la ferme, il m'a d'abord fallu créer un environnement et des personnages. J'ai du décrire les éléments présents dans la ferme ainsi que les personnages. Rajouter une description à chaque personnage afin de lui donner une personnalité. L'ajout de pathfinding a été nécessaire pour que les personnages puissent se déplacer dans la ferme. Le but est, grace aux informations fournies à l'IA et la description de chaque personnage et de l'environnement, de donner une liste de tache à chaque personnage.",
+        "image1": "/images/Presentation/LLMFarm/1.png",
+        "image2": "/images/Presentation/LLMFarm/2.png",
+        "alt1": "Salle intro",
+        "alt2": "Salle key"
+    },
+    "bloc2" :
+    {
+        "title": "Outils et models",
+        "description": "Afin de générer correctement les actions des diverses personnages, j'ai essayé plusieurs outils d'IA avec différents modèles. J'ai commencé par une IA installée localement sur mon ordinateur, mais cela ne m'a pas permis d'avoir un bon résultat, le modèle était trop lourd et ne fonctionnait pas correctement. Je suis ensuite passé par Huggin Face pour trouvé un modèle qui me convenait. J'ai découvert Mistral, cette fois ci je ne l'ai pas utilisé localement mais j'ai utilisé l'API de Hugging Face. J'ai ensuite vérifié que tout fonctionnait correctement et que les réponses étaient cohérentes avec Postman et intégré l'API dans Unity.",
+        "image1": "/images/Presentation/LLMFarm/3.png",
+        "image2": "/images/Presentation/LLMFarm/4.png",
+        "alt1": "Salle monstre",
+        "alt2": "Salle fin"
+    },
+    "bloc3" :
+    {
+        "title": "",
+        "description": "",
+        "image1": "/images/Presentation/DungeonCrawler/5.png",
+        "image2": "",
+        "alt1": "",
+        "alt2": ""
+    }
+}

@@ -118,5 +118,41 @@
             "warningContent": false,
             "engine" : "Unreal Engine"
         }
+    ],
+    "11":
+    [
+        {
+            "title": "Dungeon Crawler",
+            "imagePath": "/images/Icons/DungeonCrawler.png",
+            "content": "Dungeon Crawler est un jeu à la première personne dont le but est de trouver la sortie d'un donjon. Vous devrez explorer les couloirs, résoudre des énigmes et combattre des ennemis pour progresser dans le jeu. Le jeu propose une variété d'ennemis, de pièges et d'objets à collecter.",
+            "alt": "Dungeon",
+            "dataToFetch": "/data/project/DungeonCrawler.json",
+            "warningContent": false,
+            "engine" : "Unity"
+        }
+    ],
+    "12":
+    [
+        {
+            "title": "LLM Farm",
+            "imagePath": "/images/Icons/LLMFarm.png",
+            "content": "LLM Farm est un jeu de simulation où l'intelligence artificielle est au centre de l'expérience. Le joueur doit gérer une ferme virtuelle en utilisant des modèles de langage pour interagir avec les cultures, les animaux et les ressources. Le jeu propose plusieurs personnages qui auront chacun leur propre personnalité et leurs propres besoins gérés par l'IA.",
+            "alt": "LLM",
+            "dataToFetch": "/data/project/LLMFarm.json",
+            "warningContent": false,
+            "engine" : "Unity"
+        }
+    ],
+    "13":
+    [
+        {
+            "title": "RPG Golf",
+            "imagePath": "/images/Icons/9.png",
+            "content": "RPG Golf est un jeu de golf en 3D où le joueur doit frapper la balle dans le trou tout en évitant les obstacles et en utilisant des compétences spéciales. Le jeu propose une variété de parcours, d'ennemis et de défis à relever. Un bon mélange entre le golf et le RPG.",
+            "alt": "RPG",
+            "dataToFetch": "/data/project/Room-data.json",
+            "warningContent": false,
+            "engine" : "Unity"
+        }
     ]
 }

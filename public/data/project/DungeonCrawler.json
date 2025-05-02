@@ -1,0 +1,38 @@
+{
+    "pageDone": true,
+    "title": "Dungeon Crawler",
+    "hasDemo": false,
+    "isDownloadable": false,
+    "downladableText": "Cliquez pour essayer la démo",
+    "downlaodLink": "https://kiraa24.itch.io/room",
+    "hasItchIO": true,
+    "hasVideo" : false,
+    "videoSrc" : "",
+    "bloc1" :
+    {
+        "title": "Explorez",
+        "description": "Dungeon Crawler est un jeu 3D avec des assets 2D et une vue en première personne. Le but du jeu est de trouver la sortie d'un donjon. Le personnage ne peut se déplacer que de case en case et peut s'orienter dans les 4 directions. L'ajout d'un FOG volumétrique permet de ne pas voir la carte entière et de découvrir le donjon au fur et à mesure de l'exploration. D'autre paramètres grace a l'URP de unity permettent d'avoir beaucoup de lumière et une couleur globale ambiante sur la scène. L'ajout de vignette permet de donner un effet de profondeur de champ et d'augmenter l'immersion du joueur.",
+        "image1": "/images/Presentation/DungeonCrawler/1.png",
+        "image2": "/images/Presentation/DungeonCrawler/2.png",
+        "alt1": "Salle intro",
+        "alt2": "Salle key"
+    },
+    "bloc2" :
+    {
+        "title": "Combattez",
+        "description": "Obtenez des clés pour ouvrir des portes et combattez des monstres pour progresser dans le donjon. Détruisez certains obstacles pour vous frayer un chemin ou ouvrez les portes avec les clés que vous avez ramassées. Vous pouvez vous soigner à l'aide de potions et vous pouvez également ramasser des objets pour améliorer votre personnage comme une épée dans un coffre ou encore une torche de feu qui infligera plus de dégats aux monstres. Les monstres ont différents comportements, ils attaqueront tous après le joueur mais certains pourront se régénérer ou encore esquiver les attaques du joueur.",
+        "image1": "/images/Presentation/DungeonCrawler/3.png",
+        "image2": "/images/Presentation/DungeonCrawler/4.png",
+        "alt1": "Salle monstre",
+        "alt2": "Salle fin"
+    },
+    "bloc3" :
+    {
+        "title": "",
+        "description": "",
+        "image1": "/images/Presentation/DungeonCrawler/5.png",
+        "image2": "",
+        "alt1": "",
+        "alt2": ""
+    }
+}
