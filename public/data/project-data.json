@@ -147,7 +147,7 @@
     [
         {
             "title": "RPG Golf",
-            "imagePath": "/images/Icons/9.png",
+            "imagePath": "/images/Icons/LLMFarm.png",
             "content": "RPG Golf est un jeu de golf en 3D où le joueur doit frapper la balle dans le trou tout en évitant les obstacles et en utilisant des compétences spéciales. Le jeu propose une variété de parcours, d'ennemis et de défis à relever. Un bon mélange entre le golf et le RPG.",
             "alt": "RPG",
             "dataToFetch": "/data/project/Room-data.json",
