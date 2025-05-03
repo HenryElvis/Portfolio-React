@@ -1,0 +1,38 @@
+{
+    "pageDone": true,
+    "title": "RPG Golf",
+    "hasDemo": false,
+    "isDownloadable": false,
+    "downladableText": "Cliquez pour essayer la démo",
+    "downlaodLink": "https://kiraa24.itch.io/room",
+    "hasItchIO": true,
+    "hasVideo" : false,
+    "videoSrc" : "",
+    "bloc1" :
+    {
+        "title": "RPG",
+        "description": "RPG Golf est un jeu de golf en 3D où le joueur doit frapper la balle dans le trou tout en évitant les obstacles et en utilisant des compétences spéciales. Le jeu propose une variété de parcours, d'ennemis et de défis à relever. Un bon mélange entre le golf et le RPG. Le coté RPG est présent grâce à la possibilité de faire évoluer son personnage, d'acheter des objets et de débloquer des compétences grace aux points d'expiriences obtenus en battant les monstres sur le chemin. Le jeu propose également un système de quêtes et de niveaux à débloquer. Le joueur peut choisir entre plusieurs personnages? Le but du jeu est de terminer chaque parcours en un minimum de coups tout en évitant les obstacles.",
+        "image1": "/images/Presentation/RPG-Golf/1.png",
+        "image2": "/images/Presentation/RPG-Golf/2.png",
+        "alt1": "Menu",
+        "alt2": "Shop"
+    },
+    "bloc2" :
+    {
+        "title": "Golf",
+        "description": "Le joueur maintien la touche gauche de la souris pour charger la puissance de son coup. Il peut ensuite relâcher la touche pour frapper tout en visant une direction. La caméra suit la balle et peut aussi être orientée pour mieux viser. On peut également zoomer avec la molette de la souris. Quand le joueur atteint une zone, la case change de couleur afin de signaler l'avancement du joueur. Les objets décoratifs apparaissent plus clairement comme si la balle redonnait vie à la zone. Le joueur perd de la vie à chaque fois qu'il tombe dans le vide, il réapparaît alors au dernier point statique où il a été.",
+        "image1": "/images/Presentation/RPG-Golf/3.png",
+        "image2": "/images/Presentation/RPG-Golf/4.png",
+        "alt1": "Level",
+        "alt2": "Monster"
+    },
+    "bloc3" :
+    {
+        "title": "",
+        "description": "",
+        "image1": "",
+        "image2": "",
+        "alt1": "",
+        "alt2": ""
+    }
+}
