@@ -32,7 +32,7 @@
         "description": "L'ajout de feedbacks visuels et sonores permet de donner un effet de réactivité et de dynamisme à l'ensemble du jeu. La caméra est mouvement constant pour que le joueur ne s'ennuit pas, les effets de explosions et de tremblement de caméra permettent de donner un effet de puissance. Les fleurs et différentes végétations changent régulièrement de scale toujours dans le but d'avoir un jeu non static et qu'on puisse moins s'ennuyer. Lorsque le joueur perd, les éléments décoratifs se mettent a sauter dans les airs pour donner un effet de destruction et de fin de partie.",
         "image1": "/images/Presentation/TowerDefense/5.png",
         "image2": "/images/Presentation/TowerDefense/6.png",
-        "alt1": "Game Over",
-        "alt2": "Victory"
+        "alt1": "Low Health",
+        "alt2": "Game Over"
     }
 }
