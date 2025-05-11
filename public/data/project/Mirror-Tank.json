@@ -1,0 +1,38 @@
+{
+    "pageDone": true,
+    "title": "Mirror Tank",
+    "hasDemo": false,
+    "isDownloadable": false,
+    "downladableText": "Cliquez pour télécharger la démo",
+    "downlaodLink": "https://github.com/HenryElvis/demo-installers/releases/download/RPG-Golf-v1.0/RPG-Golf.exe",
+    "hasItchIO": false,
+    "hasVideo" : false,
+    "videoSrc" : "",
+    "bloc1" :
+    {
+        "title": "Mirror",
+        "description": "Mirror est un framework de réseau (networking) open-source pour Unity, qui permet de créer des jeux multijoueurs ou des applications connectées en mode client-serveur. Il est conçu pour être facile à utiliser et à intégrer dans des projets Unity existants. Mirror utilise le modèle de programmation RPC (Remote Procedure Call) pour permettre aux développeurs d'appeler des fonctions sur des objets distants, ce qui facilite la synchronisation des données entre les clients et le serveur. Il prend également en charge la gestion de la connexion, la gestion des erreurs et la sécurité, ce qui en fait un choix populaire pour les développeurs de jeux multijoueurs.",
+        "image1": "/images/Presentation/Mirror-Tank/1.png",
+        "image2": "/images/Presentation/Mirror-Tank/2.png",
+        "alt1": "Menu",
+        "alt2": "Shop"
+    },
+    "bloc2" :
+    {
+        "title": "",
+        "description": "",
+        "image1": "/images/Presentation/Mirror-Tank/3.png",
+        "image2": "/images/Presentation/Mirror-Tank/4.png",
+        "alt1": "Level",
+        "alt2": "Monster"
+    },
+    "bloc3" :
+    {
+        "title": "",
+        "description": "",
+        "image1": "",
+        "image2": "",
+        "alt1": "",
+        "alt2": ""
+    }
+}
