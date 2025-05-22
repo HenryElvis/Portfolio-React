@@ -172,8 +172,8 @@
         {
             "title": "Proto Clash",
             "imagePath": "/images/Icons/ProtoClash.png",
-            "content": "Ce projet est un jeu de tank multijoueur en ligne, où les joueurs s'affrontent dans des arènes. Le jeu utilise le framework Mirror pour la gestion du réseau et propose une expérience de jeu fluide et immersive.",
-            "alt": "Mirror Tank",
+            "content": "Proto Clash est un jeu multijoueur en ligne où les joueurs s'affrontent dans des arènes. Le jeu utilise le framework Netcode for GameObjects pour la gestion du réseau et propose une expérience de jeu fluide et immersive. Le jeu est un petit prototype basé sur le jeu Clash Royale de Supercell.",
+            "alt": "Proto Clash",
             "dataToFetch": "/data/project/ProtoClash.json",
             "warningContent": false,
             "engine" : "Unity"
