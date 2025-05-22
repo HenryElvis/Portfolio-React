@@ -166,5 +166,17 @@
             "warningContent": false,
             "engine" : "Unity"
         }
+    ],
+    "15":
+    [
+        {
+            "title": "Proto Clash",
+            "imagePath": "/images/Icons/ProtoClash.png",
+            "content": "Ce projet est un jeu de tank multijoueur en ligne, où les joueurs s'affrontent dans des arènes. Le jeu utilise le framework Mirror pour la gestion du réseau et propose une expérience de jeu fluide et immersive.",
+            "alt": "Mirror Tank",
+            "dataToFetch": "/data/project/ProtoClash.json",
+            "warningContent": false,
+            "engine" : "Unity"
+        }
     ]
 }

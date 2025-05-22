@@ -1,0 +1,38 @@
+{
+    "pageDone": true,
+    "title": "Proto Clash",
+    "hasDemo": false,
+    "isDownloadable": false,
+    "downladableText": "Cliquez pour télécharger la démo",
+    "downlaodLink": "",
+    "hasItchIO": false,
+    "hasVideo" : false,
+    "videoSrc" : "",
+    "bloc1" :
+    {
+        "title": "Netcode For GameObjects",
+        "description": "Netcode for GameObjects est un framework de mise en réseau pour Unity qui permet de créer des jeux multijoueurs. Il fournit des outils et des API pour gérer la synchronisation des objets, la gestion des connexions, la communication entre le serveur et les clients, ainsi que d'autres fonctionnalités essentielles pour le développement de jeux en ligne. Le framework est conçu pour être flexible et extensible, permettant aux développeurs de personnaliser leur expérience de mise en réseau en fonction des besoins spécifiques de leur jeu.",
+        "image1": "/images/Presentation/ProtoClash/1.png",
+        "image2": "/images/Presentation/ProtoClash/2.png",
+        "alt1": "Menu",
+        "alt2": "Shop"
+    },
+    "bloc2" :
+    {
+        "title": "...",
+        "description": "",
+        "image1": "/images/Presentation/ProtoClash/3.png",
+        "image2": "/images/Presentation/ProtoClash/4.png",
+        "alt1": "Level",
+        "alt2": "Monster"
+    },
+    "bloc3" :
+    {
+        "title": "",
+        "description": "",
+        "image1": "",
+        "image2": "",
+        "alt1": "",
+        "alt2": ""
+    }
+}

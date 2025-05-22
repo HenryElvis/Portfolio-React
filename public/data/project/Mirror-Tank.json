@@ -4,7 +4,7 @@
     "hasDemo": false,
     "isDownloadable": false,
     "downladableText": "Cliquez pour télécharger la démo",
-    "downlaodLink": "https://github.com/HenryElvis/demo-installers/releases/download/RPG-Golf-v1.0/RPG-Golf.exe",
+    "downlaodLink": "",
     "hasItchIO": false,
     "hasVideo" : false,
     "videoSrc" : "",
@@ -19,7 +19,7 @@
     },
     "bloc2" :
     {
-        "title": "",
+        "title": "...",
         "description": "",
         "image1": "/images/Presentation/Mirror-Tank/3.png",
         "image2": "/images/Presentation/Mirror-Tank/4.png",
