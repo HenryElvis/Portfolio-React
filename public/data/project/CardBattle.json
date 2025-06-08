@@ -1,0 +1,38 @@
+{
+    "pageDone": true,
+    "title": "Card Battle",
+    "hasDemo": false,
+    "isDownloadable": true,
+    "downladableText": "Cliquez pour télécharger le jeu",
+    "downlaodLink": "https://github.com/HenryElvis/demo-installers/releases/download/CardBattle/CardBattle-setup.exe",
+    "hasItchIO": false,
+    "hasVideo" : false,
+    "videoSrc" : "",
+    "bloc1" :
+    {
+        "title": "Règles du jeu",
+        "description": "",
+        "image1": "/images/Presentation/CardBattle/1.png",
+        "image2": "/images/Presentation/CardBattle/2.png",
+        "alt1": "Rules",
+        "alt2": "Rules"
+    },
+    "bloc2" :
+    {
+        "title": "Actions",
+        "description": "",
+        "image1": "/images/Presentation/CardBattle/3.png",
+        "image2": "/images/Presentation/CardBattle/4.png",
+        "alt1": "Actions",
+        "alt2": "Actions"
+    },
+    "bloc3" :
+    {
+        "title": "Changement de carte",
+        "description": "Il peut arriver que vous ayez besoin de changer de carte pendant une partie. Par exemple si vous avez que des cartes nécessitant un ou plusieurs sacrifices. Il est possible de changer une carte chaque tour en faisant un clic droit sur la carte en main, une nouvelle carte remplacera celle choisie. Attention vous n'aurez pas forcément de quoi jouer. Les cartes sont tirées aléatoirement.",
+        "image1": "/images/Presentation/CardBattle/5.png",
+        "image2": "/images/Presentation/CardBattle/6.png",
+        "alt1": "Card",
+        "alt2": "Change card"
+    }
+}

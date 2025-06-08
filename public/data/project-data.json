@@ -184,9 +184,21 @@
         {
             "title": "Photon Room",
             "imagePath": "/images/Icons/PhotonRoom.png",
-            "content": "Proto Clash est un jeu multijoueur en ligne où les joueurs s'affrontent dans des arènes. Le jeu utilise le framework Netcode for GameObjects pour la gestion du réseau et propose une expérience de jeu fluide et immersive. Le jeu est un petit prototype basé sur le jeu Clash Royale de Supercell.",
+            "content": "Projet photon room est un projet de jeu multijoueur en ligne utilisant le framework Photon pour la gestion du réseau. Le jeu propose une expérience de jeu fluide et immersive, avec des fonctionnalités avancées de synchronisation et de gestion des joueurs.",
             "alt": "Photon Room",
             "dataToFetch": "/data/project/PhotonRoom.json",
+            "warningContent": false,
+            "engine" : "Unity"
+        }
+    ],
+    "17":
+    [
+        {
+            "title": "Card Battle",
+            "imagePath": "/images/Icons/CardBattle.png",
+            "content": "",
+            "alt": "Card Battle",
+            "dataToFetch": "/data/project/CardBattle.json",
             "warningContent": false,
             "engine" : "Unity"
         }
