@@ -1,0 +1,38 @@
+{
+    "pageDone": true,
+    "title": "Photon Room",
+    "hasDemo": false,
+    "isDownloadable": false,
+    "downladableText": "Cliquez pour télécharger la démo",
+    "downlaodLink": "",
+    "hasItchIO": false,
+    "hasVideo" : false,
+    "videoSrc" : "",
+    "bloc1" :
+    {
+        "title": "Photon",
+        "description": "Photon est un service de mise en réseau en temps réel qui permet aux développeurs de créer des jeux multijoueurs et des applications interactives. Il offre une infrastructure cloud pour la gestion des connexions, la synchronisation des données et la communication entre les clients. Photon est conçu pour être facile à intégrer dans les projets Unity, offrant des fonctionnalités telles que la gestion des joueurs, la synchronisation des objets et la prise en charge de divers protocoles de communication.",
+        "image1": "/images/Presentation/Photon/1.png",
+        "image2": "/images/Presentation/Photon/2.png",
+        "alt1": "Two players",
+        "alt2": "Three players"
+    },
+    "bloc2" :
+    {
+        "title": "Objectifs",
+        "description": "Ce projet a pour but de démontrer les capacités de Photon en matière de mise en réseau pour les jeux multijoueurs. Il met en avant la facilité d'intégration de Photon dans Unity, ainsi que ses fonctionnalités de synchronisation et de gestion des joueurs. En fonction du nombre de joueurs connectés, la scène s'adapte avec un terrain plus grand. Chaque deconnexion d'un joueur permet de faire un retour en arrière avec une pièce plus petite.",
+        "image1": "/images/Presentation/Photon/3.png",
+        "image2": "/images/Presentation/Photon/4.png",
+        "alt1": "Four players",
+        "alt2": "Return to three players"
+    },
+    "bloc3" :
+    {
+        "title": "",
+        "description": "",
+        "image1": "",
+        "image2": "",
+        "alt1": "",
+        "alt2": ""
+    }
+}

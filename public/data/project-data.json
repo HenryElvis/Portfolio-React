@@ -178,5 +178,17 @@
             "warningContent": false,
             "engine" : "Unity"
         }
+    ],
+    "16":
+    [
+        {
+            "title": "Photon Room",
+            "imagePath": "/images/Icons/PhotonRoom.png",
+            "content": "Proto Clash est un jeu multijoueur en ligne où les joueurs s'affrontent dans des arènes. Le jeu utilise le framework Netcode for GameObjects pour la gestion du réseau et propose une expérience de jeu fluide et immersive. Le jeu est un petit prototype basé sur le jeu Clash Royale de Supercell.",
+            "alt": "Photon Room",
+            "dataToFetch": "/data/project/PhotonRoom.json",
+            "warningContent": false,
+            "engine" : "Unity"
+        }
     ]
 }
