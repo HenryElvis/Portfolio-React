@@ -196,7 +196,7 @@
         {
             "title": "Card Battle",
             "imagePath": "/images/Icons/CardBattle.png",
-            "content": "",
+            "content": "Jeu de carte tour par tour contre l'ordinateur, utilisez les monstres de votre deck, sacrifiez-les pour en invoquer de plus puissants. Le but du jeu est de réduire les points de vie de l'adversaire à zéro.",
             "alt": "Card Battle",
             "dataToFetch": "/data/project/CardBattle.json",
             "warningContent": false,
