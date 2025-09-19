@@ -5,17 +5,17 @@ const CardContainers: React.FC = () => {
         <section>
             <section>
                 <article>
-                    {/* <Card index="LFT" /> */}
-                    {/* <Card index="SAE" />
-                    <Card index="IIM" /> */}
+                    <Card index="LFT" />
+                    <Card index="SAE" />
+                    <Card index="IIM" />
                 </article>
             </section>
 
             <section className="card-top-gap">
                 <article>
-                    {/* <Card index="Parkours" />
+                    <Card index="Parkours" />
                     <Card index="Malt" />
-                    <Card index="TKA" /> */}
+                    <Card index="TKA" />
                 </article>
             </section>
         </section>
