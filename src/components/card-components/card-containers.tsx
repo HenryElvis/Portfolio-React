@@ -5,7 +5,7 @@ const CardContainers: React.FC = () => {
         <section>
             <section>
                 <article>
-                    <Card index="LFT" />
+                    {/* <Card index="LFT" /> */}
                     <Card index="SAE" />
                     <Card index="IIM" />
                 </article>
